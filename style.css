@@ -1659,20 +1659,23 @@ text-align: center;
     box-shadow: none !important;
 }
 
-
-
 .logos-container {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
     padding: 30px 0;
 }
 
 .logos-scroll {
     display: flex;
-    animation: scroll 60s linear infinite;
+    gap: 60px;
+    align-items: center;
+    animation: scroll 20s linear infinite;
+    width: fit-content;
+}
+
+.logos-track {
+    display: flex;
     gap: 60px;
     align-items: center;
 }
@@ -1681,7 +1684,7 @@ text-align: center;
     flex-shrink: 0;
     width: 140px;
     height: 90px;
-    background: white;
+    background: #e8e8e8;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -1704,18 +1707,10 @@ text-align: center;
     transform: scale(1.1);
 }
 
-.logo-1 { background: #e8e8e8; }
-.logo-2 { background: #e8e8e8; }
-.logo-3 { background: #e8e8e8; }
-.logo-4 { background: #e8e8e8; }
-.logo-5 { background: #e8e8e8; }
-.logo-6 { background: #e8e8e8; }
-.logo-7 { background: #e8e8e8; }
-.logo-8 { background: #e8e8e8; }
-
+.logo-item { background: #e8e8e8; }
 @keyframes scroll {
     0% {
-        transform: translateX(0%);
+        transform: translateX(0);
     }
     100% {
         transform: translateX(-50%);

@@ -1704,14 +1704,14 @@ text-align: center;
     transform: scale(1.1);
 }
 
-.logo-1 { background: #2a2a2a; }
-.logo-2 { background: #2a2a2a; }
-.logo-3 { background: #2a2a2a; }
-.logo-4 { background: #2a2a2a; }
-.logo-5 { background: #2a2a2a; }
-.logo-6 { background: #2a2a2a; }
-.logo-7 { background: #2a2a2a; }
-.logo-8 { background: #2a2a2a; }
+.logo-1 { background: #e8e8e8; }
+.logo-2 { background: #e8e8e8; }
+.logo-3 { background: #e8e8e8; }
+.logo-4 { background: #e8e8e8; }
+.logo-5 { background: #e8e8e8; }
+.logo-6 { background: #e8e8e8; }
+.logo-7 { background: #e8e8e8; }
+.logo-8 { background: #e8e8e8; }
 
 @keyframes scroll {
     0% {

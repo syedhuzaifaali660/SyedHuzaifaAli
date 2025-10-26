@@ -1,0 +1,653 @@
+[
+   {
+      "categories":["category3"],
+      "imageUrl":"img/projects/Ned-VR-Tour.JPG",
+      "altText":"NED VR Tour Project Screenshot",
+      "title":"NED VR Tour",
+      "description":"A Virtual Tour Of a famous university in karachi showing full university in a virtual environment.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=V_sFQBu5t5Y",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category3"],
+      "imageUrl":"img/projects/VrCricket.png",
+      "altText":"VR Cricket Gamification Project Screenshot",
+      "title":"VR Cricket Gamification",
+      "description":"VR Cricket Challenge: Bat, score boundaries, answer trivia. Test your cricket skills and knowledge, climb the global leaderboard!",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=NJXZxGnHxNc",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category3","category6"],
+      "imageUrl":"img/projects/VRMedicalSimulation.PNG",
+      "altText":"Medical Simulation VR Project Screenshot",
+      "title":"Medical Simulation VR",
+      "description":"A Virtual Reality based medical simulations for doctors to train in a virtual environment.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=jRdBzfQTtso",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category3","category6"],
+      "imageUrl":"img/projects/VR-Metaltronica.png",
+      "altText":"VR Breast Cancer Detection Hardware Simulation Project Screenshot",
+      "title":"VR Breast Cancer Detection Hardware Simulation",
+      "description":"Breast cancer detection hardware simulation trains users on device features and operation for effective medical equipment usage.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=Jbgf339j330",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category3","category6"],
+      "imageUrl":"img/projects/VR-CardioCare.png",
+      "altText":"Cardio Medical Simulation VR Project Screenshot",
+      "title":"Cardio Medical Simulation VR",
+      "description":"A Cardio training that focuses on vital sign assessment & examinations and ECGs, enhancing skills and improving patient care.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=Yf1zNFwCziw",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category3"],
+      "imageUrl":"img/projects/Virtual-360-House-Tour.jpeg",
+      "altText":"Virtual 360 House Tour Project Screenshot",
+      "title":"Virtual 360 House Tour",
+      "description":"Showing virtual home through mobile phone in VR",
+      "links":[
+         {
+            "url":"https://www.youtube.com/shorts/C0eCaFOmv4k",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category3"],
+      "imageUrl":"img/projects/VR-MultiPlayer.png",
+      "altText":"Multiplayer VR Project Screenshot",
+      "title":"Multiplayer VR",
+      "description":"Showing 2 virtual environments in which players can connect and talk to each other with the help of voice chat.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=3QdvxGsD0Jc",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category3"],
+      "imageUrl":"img/projects/Virtual-Reality-Raytracing-Technology.jpeg",
+      "altText":"Virtual Reality Raytracing Technology Project Screenshot",
+      "title":"Virtual Reality Raytracing Technology",
+      "description":"Showing new car launch progton saga in VR using new unity raytracing technology.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=qBOzR4FNlGU",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
+      "imageUrl":"img/projects/AR-FURNITURE-PLACING-APP.JPG",
+      "altText":"Furniture Placing App Project Screenshot",
+      "title":"Furniture Placing App",
+      "description":"A furniture placing app demo showcasing ar technology through which users can place furniture in their home in real time",
+      "links":[
+         {
+            "url":"https://www.youtube.com/shorts/m7-2T6bA9Qw",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
+      "imageUrl":"img/projects/ARFilter.png",
+      "altText":"AR Face Filters Project Screenshot",
+      "title":"AR Face Filters",
+      "description":"A facefilter app to used to show different filters on face as well as other objects like glasses, caps etc.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=um7TAFMeoKc",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
+      "imageUrl":"img/projects/AR-Portal-Effect.jpeg",
+      "altText":"AR Portal Effect Project Screenshot",
+      "title":"AR Portal Effect",
+      "description":"Showing A Augmented Environment In Real World Make User Go In Another Dimension.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/shorts/Vk1twVier1I",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2","category7"],
+      "imageUrl":"img/projects/DiampaLT_WebAR.png",
+      "altText":"WEB-AR Engagement Project Screenshot",
+      "title":"WEB-AR Engagement",
+      "description":"Showing A Web based Augmented Reality engagement for sales representative to show medicines effects.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=BX0pUZLXihY&ab_channel=SyedHuzaifaAli",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2","category7"],
+      "imageUrl":"img/projects/WebAR-Serc.png",
+      "altText":"WEB-AR Medicine Promotion Project Screenshot",
+      "title":"WEB-AR Medicine Promotion",
+      "description":"Showing A Web based Augmented Reality engagement for sales and promotional purposes.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=51amLGaG4_4&ab_channel=SyedHuzaifaAli",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2","category7"],
+      "imageUrl":"img/projects/WebARSpaceship.png",
+      "altText":"Web-AR Spaceship Project Screenshot",
+      "title":"Web-AR Spaceship",
+      "description":"This project brings a wormhole and spaceship animation to life when scanning a shirt creating an immersive WebAR experience.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=QR_Gff24AV8&ab_channel=SyedHuzaifaAli",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
+      "imageUrl":"img/projects/ARDemoAd.JPG",
+      "altText":"AR Pepsi Advertisement Demo Project Screenshot",
+      "title":"AR Pepsi Advertisement Demo",
+      "description":"A demo of pepsi utilizing pepsi bottle to display their studio songs and star ads and new launched diet drink.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/shorts/kGfBF2OLqS0",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
+      "imageUrl":"img/projects/AR-BIOLOGY-DEMO.JPG",
+      "altText":"AR Biology Human Anatomy Demo Project Screenshot",
+      "title":"AR Biology Human Anatomy Demo",
+      "description":"An app to that shows human anatomy which will be displayed on an image can be used to teach students interested in biology and medical students.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=SbNyyRL0CSQ",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
+      "imageUrl":"img/projects/IWSuprise.JPG",
+      "altText":"AR Product Display Project Screenshot",
+      "title":"AR Product Display",
+      "description":"An app to that shows product which will be displayed on an image can be used to show product features and description.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/shorts/aRdsBEnVu44",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
+      "imageUrl":"img/projects/AR_Blueprint_App.jpg",
+      "altText":"AR BluePrint App Project Screenshot",
+      "title":"AR BluePrint App",
+      "description":"A blueprint visualizer for buildings rooms best for construction companies",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=QK8u_Rh14Vo",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
+      "imageUrl":"img/projects/AR-CAR-ENGINE-APP.JPG",
+      "altText":"AR Car Engine App Project Screenshot",
+      "title":"AR Car Engine App",
+      "description":"Showing car engine and how it works with animation and all parts of engine engaging students in learning and helping in better understanding.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=m6AP-hrrpeg",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
+      "imageUrl":"img/projects/ARPortalHouse3551.JPG",
+      "altText":"AR Construction House Portal Project Screenshot",
+      "title":"AR Construction House Portal",
+      "description":"Immersing users in a house that is overlaid on top of our real world environment people can view the complete house and how it looks like.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=gtbhHUm1k2M",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
+      "imageUrl":"img/projects/IndoorNAvigation.JPG",
+      "altText":"AR Indoor Navigation Project Screenshot",
+      "title":"AR Indoor Navigation",
+      "description":"Indoor navigation helping people guiding them which route to take inside a mall, hospital, university or a office taking them where their destinations is without asking or looking for people who can help them get to their desired place.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/shorts/feuoc7Va5AY",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/HouseShowcaseApp.JPG",
+      "altText":"Architecture Showcase Project Screenshot",
+      "title":"Architecture Showcase",
+      "description":"Look into the architecture of a building and view all its floors inside and the final look of the design within the app.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=oHRFmBdbjiU",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/Youtube_Api_Call.png",
+      "altText":"Youtube Api Calling Project Screenshot",
+      "title":"Youtube Api Calling",
+      "description":"Youtube api calling with unity's new ui tool kit getting data with api and displaying it my app with pagination.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=cR86qFPuFog",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/Bird_Hunting_Shooting.webp",
+      "altText":"Bird Hunting Shooting Game Project Screenshot",
+      "title":"Bird Hunting Shooting Game",
+      "description":"Experience the real fun of shooting birds without harming anyone! This bird hunting game allows you to be your true bird hunter self in wild animal jungle adventure action game. Featuring 3D graphics, picturesque locations, real time different birds animation and lifelike birds noises, this bird hunter game is all about offering you a realistic bird hunting experience.",
+      "links":[
+         {
+            "url":"https://play.google.com/store/apps/details?id=com.gamesworld.bird.shooting.game",
+            "text":"Android",
+            "icon":"fab fa-android"
+         }
+      ]
+   },
+   {
+      "categories":["category1","category2","category7"],
+      "imageUrl":"img/projects/RealDeal.jpg",
+      "altText":"Real Deal Thrift Hunter Project Screenshot",
+      "title":"Real Deal Thrift Hunter",
+      "description":"Put your thrift-hunting skills to the test! In Real Deal: Thrift Hunter, you'll be shown real items fetched from eBay and Poshmark, and your challenge is to guess their prices. Guess correctly and earn rewards! Use Power-Ups to freeze time, get hints, or summon Genee for help.",
+      "links":[
+         {
+            "url":"https://play.google.com/store/apps/details?id=com.sellercave.realdealthrifthunter&hl=en",
+            "text":"Android",
+            "icon":"fab fa-android"
+         },
+         {
+            "url":"https://games.sellercave.com/",
+            "text":"Visit Website",
+            "icon":"fas fa-external-link-alt"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/SKU.png",
+      "altText":"Kids Learning APP Project Screenshot",
+      "title":"Kids Learning APP",
+      "description":"Kids learning app focusing on different subjects like math's science etc.. Math subject has different worlds which are based on geographical location of contents and each continent has different lesson related to the subject.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=q1bfS9Td-20",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/Wild_Dino_Hunting_Game.webp",
+      "altText":"Wild Dinosaur Hunting Island Project Screenshot",
+      "title":"Wild Dinosaur Hunting Island",
+      "description":"Welcome to the real Dino Hunting Shooting. Enjoy real animal hunting game in jungle survival with all the new shooting games exciting levels and realistic hunting adventure experience with FPS Shooter sniper.",
+      "links":[
+         {
+            "url":"https://play.google.com/store/apps/details?id=com.ps.animalhunter.jungle.snipershooting&hl=en&gl=US",
+            "text":"Android",
+            "icon":"fab fa-android"
+         },
+         {
+            "url":"https://www.youtube.com/watch?v=kN2pmrtQy4w",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/AstroAdventure2.png",
+      "altText":"ASTRO ADVENTURES Project Screenshot",
+      "title":"ASTRO ADVENTURES",
+      "description":"A fun and engaging platformer game with markets to buy guns and coins to upgrade them.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=UfNtp7p8QPs",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/Hungry_Shark_Hunter.webp",
+      "altText":"Hungry Shark Hunter Project Screenshot",
+      "title":"Hungry Shark Hunter",
+      "description":"Play Exciting Sea Animal Shark Shooting games. Angry shark is roaming around in the ocean waters, looking for someone to attack. You are all alone in ocean water away from the city, what will you do? Become the best sniper in Angry shark hunting games.",
+      "links":[
+         {
+            "url":"https://play.google.com/store/apps/details?id=com.gamesworld.shark.hunting.sniper",
+            "text":"Android",
+            "icon":"fab fa-android"
+         },
+         {
+            "url":"https://apps.apple.com/us/app/angry-shark-hunting-game/id1565296708",
+            "text":"iOS",
+            "icon":"fab fa-apple"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/Angry_Dino_Hunting.webp",
+      "altText":"Angry Dino Hunting Project Screenshot",
+      "title":"Angry Dino Hunting",
+      "description":"Let's play fearless modern sniper shooting, go hunting and survive in the world overflowing with the wild dinosaurs and jungle animals",
+      "links":[
+         {
+            "url":"https://play.google.com/store/apps/details?id=com.ps.angry.dino.hunting.game",
+            "text":"Android",
+            "icon":"fab fa-android"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/Wild_Animal_Hunting.webp",
+      "altText":"Real Animal Hunting Quest 3D Project Screenshot",
+      "title":"Real Animal Hunting Quest 3D",
+      "description":"Start Wild animal hunting journey through the dense forest. Animal hunting games invites you to experience exotic animal hunting game experience.",
+      "links":[
+         {
+            "url":"https://play.google.com/store/apps/details?id=com.gamesworld.animal.hunting.sniper.shooting",
+            "text":"Android",
+            "icon":"fab fa-android"
+         },
+         {
+            "url":"https://apps.apple.com/us/app/wild-animal-hunting-jungle-3d/id1361536024",
+            "text":"iOS",
+            "icon":"fab fa-apple"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/acromania.png",
+      "altText":"Acromania Multiplayer Game Project Screenshot",
+      "title":"Acromania Multiplayer Game",
+      "description":"Acromania is a fast-paced word game that challenges players to come up with creative acronyms using a set of given letters (iOS/Android)",
+      "links":[
+         {
+            "url":"https://apps.apple.com/us/app/acromania/id6448218071",
+            "text":"iOS",
+            "icon":"fab fa-apple"
+         },
+         {
+            "url":"https://www.youtube.com/watch?v=-ma7hdsFP_w",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category1","category6"],
+      "imageUrl":"img/projects/GolfGame.png",
+      "altText":"Golf Game Project Screenshot",
+      "title":"Golf Game",
+      "description":"Introducing the innovative Golf Game that integrates cutting-edge spirometry technology to measure the user's respiratory system. To play the game, users are required to provide their personal information, which is then utilized to generate a customized measurement of their lungs.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=KD7Q3qHBFzY",
+            "text":"iOS",
+            "icon":"fab fa-apple"
+         }
+      ]
+   },
+   {
+      "categories":["category1","category6"],
+      "imageUrl":"img/projects/Dolphin.png",
+      "altText":"Dolphin Game Project Screenshot",
+      "title":"Dolphin Game",
+      "description":"The Spirometry-based Gaming Container App merges interactive gaming with spirometry technology to measure lung capacity. With two engaging games, users play while their inhale and exhale values are recorded.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=La5ttq0NzE0",
+            "text":"iOS",
+            "icon":"fab fa-apple"
+         }
+      ]
+   },
+   {
+      "categories":["category4"],
+      "imageUrl":"img/projects/kinect.jpeg",
+      "altText":"KINECT Project Screenshot",
+      "title":"KINECT",
+      "description":"Bubble popping game pop bubbles by copying user hand motion made with kinect using depth sensors and infrared cam.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=rGbuNE9XAk0",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category6"],
+      "imageUrl":"img/projects/Mdeical.png",
+      "altText":"Medical Simulation Project Screenshot",
+      "title":"Medical Simulation",
+      "description":"A simulation based on a specific patient for medical training",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=mHBVJRXK9ts",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category5"],
+      "imageUrl":"img/projects/GamificationCardGame.JPG",
+      "altText":"Activity Card Game Project Screenshot",
+      "title":"Activity Card Game",
+      "description":"A Game based on a cancer detection showcasing a new way to detect cells with the help of gamification",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=yY0crbJEG0g",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category7"],
+      "imageUrl":"img/projects/MultiplayerGameWebGl.JPG",
+      "altText":"Portfolio Explorer Project Screenshot",
+      "title":"Portfolio Explorer",
+      "description":"A metaverse company portfolio explorer game based on WebGL",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=iDUUyegYpLU",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category7","category6"],
+      "imageUrl":"img/projects/Web-VR.PNG",
+      "altText":"Medical Simulation WebVR Project Screenshot",
+      "title":"Medical Simulation WebVR",
+      "description":"A WebVR based medical simulation",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=iQKeVHxM_-0",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category7","category5"],
+      "imageUrl":"img/projects/CarGamificationWeb.png",
+      "altText":"Car Racing Gamification Project Screenshot",
+      "title":"Car Racing Gamification",
+      "description":"A web based car racing gamification which works on phones tablets and pc",
+      "links":[
+         {
+            "url":"https://www.youtube.com/shorts/vnErIB1iZzM",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/superherocar.webp",
+      "altText":"SUPER HERO CAR SIMULATOR Project Screenshot",
+      "title":"SUPER HERO CAR SIMULATOR",
+      "description":"This is a truck transporter game in which you can transport animals, and cars, rescue cars animals, and dive in the sea with a submarine. Plus much much more",
+      "links":[
+         {
+            "url":"https://play.google.com/store/apps/details?id=com.madattack.superhero.car.transport.truck.game",
+            "text":"Android",
+            "icon":"fab fa-android"
+         },
+         {
+            "url":"https://www.youtube.com/watch?v=e3FKrSPkU8A",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
+      "imageUrl":"img/projects/fpsshooting2019.webp",
+      "altText":"FPS SHOOTING 2019 Project Screenshot",
+      "title":"FPS SHOOTING 2019",
+      "description":"In this fps game I worked on a mode BATTLE ROYALE. This is based on open world concept.",
+      "links":[
+         {
+            "url":"https://play.google.com/store/apps/details?id=com.madattack.fps.commando.shooting.strike",
+            "text":"Android",
+            "icon":"fab fa-android"
+         },
+         {
+            "url":"https://www.youtube.com/watch?v=exNSTe3om-I",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category5"],
+      "imageUrl":"img/projects/MaxLeague1.png",
+      "altText":"MAX LEAGUE Project Screenshot",
+      "title":"MAX LEAGUE",
+      "description":"This is a question and answer based game made for a pharmaceutical company to gamify their event in which multiple doctors are invited to play.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=Ajs_xOwig6k",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category5"],
+      "imageUrl":"img/projects/gamification-v2.png",
+      "altText":"Zinc Club Project Screenshot",
+      "title":"Zinc Club",
+      "description":"In this game I have utilized a 3D environment to showcase the product for the client as well as making gameplay fun.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=_zEOnKT40eE&t=6s",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   }
+]

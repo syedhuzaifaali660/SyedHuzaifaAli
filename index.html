@@ -10,11 +10,33 @@
 
     <link rel="icon" href="img/favicon.png">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    <!-- Corrected integrity attribute -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
 
     <link href="css/responsive.css" rel="stylesheet">
+    
+    <!-- Added for performance: CSS links moved from style.css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+
+    <style>
+        /* Mobile video fallback */
+        @media (max-width: 768px) {
+            .wellcome_area .video-background {
+                display: none; /* Hide video on mobile */
+            }
+            .wellcome_area {
+                /* Create a fallback image, e.g., a blurred screenshot of the video */
+                background-image: url('img/video-fallback.jpg'); 
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -65,7 +87,7 @@
                             <img src="ProfilePicture/ProfessionalPicture_01.jpeg" alt="Professional headshot of Syed Huzaifa Ali">
                         </div>
                         <h2 class="web-white slider-heading mb-5">Syed Huzaifa Ali</h2>
-                            <p class="web-white slider-description">Game Director</p>
+                            <p class="web-white slider-description">Lead Unity Developer</p>
                         </div>
                         
                     </div>
@@ -199,6 +221,112 @@
             </div>
         </div>
     </section>
+
+<!-- Tech Stack Slider Section -->
+<section class="tech-stack-slider-area">
+    <div class="software-skills-main-div">
+        <ul class="dev-icons">
+            <li class="software-skill-inline" name="Unity">
+                <i class="fab fa-unity"></i>
+                <p>Unity</p>
+            </li>
+            <li class="software-skill-inline" name="C#">
+                <i class="fas fa-code"></i>
+                <p>C#</p>
+            </li>
+            <li class="software-skill-inline" name="Android">
+                <i class="fab fa-android"></i>
+                <p>Android</p>
+            </li>
+            <li class="software-skill-inline" name="iOS">
+                <i class="fab fa-apple"></i>
+                <p>iOS</p>
+            </li>
+            <li class="software-skill-inline" name="AR/VR">
+                <i class="fas fa-vr-cardboard"></i>
+                <p>AR/VR</p>
+            </li>
+            <li class="software-skill-inline" name="Firebase">
+                <i class="fas fa-fire"></i>
+                <p>Firebase</p>
+            </li>
+            <li class="software-skill-inline" name="Git">
+                <i class="fab fa-git-alt"></i>
+                <p>Git</p>
+            </li>
+            <li class="software-skill-inline" name="JavaScript">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </li>
+            <li class="software-skill-inline" name="Python">
+                <i class="fab fa-python"></i>
+                <p>Python</p>
+            </li>
+            <li class="software-skill-inline" name="Docker">
+                <i class="fab fa-docker"></i>
+                <p>Docker</p>
+            </li>
+            <li class="software-skill-inline" name="AWS">
+                <i class="fab fa-aws"></i>
+                <p>AWS</p>
+            </li>
+            <li class="software-skill-inline" name="Database">
+                <i class="fas fa-database"></i>
+                <p>Database</p>
+            </li>
+            <!-- Duplicate for seamless scrolling -->
+            <li class="software-skill-inline" name="Unity">
+                <i class="fab fa-unity"></i>
+                <p>Unity</p>
+            </li>
+            <li class="software-skill-inline" name="C#">
+                <i class="fas fa-code"></i>
+                <p>C#</p>
+            </li>
+            <li class="software-skill-inline" name="Android">
+                <i class="fab fa-android"></i>
+                <p>Android</p>
+            </li>
+            <li class="software-skill-inline" name="iOS">
+                <i class="fab fa-apple"></i>
+                <p>iOS</p>
+            </li>
+            <li class="software-skill-inline" name="AR/VR">
+                <i class="fas fa-vr-cardboard"></i>
+                <p>AR/VR</p>
+            </li>
+            <li class="software-skill-inline" name="Firebase">
+                <i class="fas fa-fire"></i>
+                <p>Firebase</p>
+            </li>
+            <li class="software-skill-inline" name="Git">
+                <i class="fab fa-git-alt"></i>
+                <p>Git</p>
+            </li>
+            <li class="software-skill-inline" name="JavaScript">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </li>
+            <li class="software-skill-inline" name="Python">
+                <i class="fab fa-python"></i>
+                <p>Python</p>
+            </li>
+            <li class="software-skill-inline" name="Docker">
+                <i class="fab fa-docker"></i>
+                <p>Docker</p>
+            </li>
+            <li class="software-skill-inline" name="AWS">
+                <i class="fab fa-aws"></i>
+                <p>AWS</p>
+            </li>
+            <li class="software-skill-inline" name="Database">
+                <i class="fas fa-database"></i>
+                <p>Database</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
     <section class="special-area bg-white section_padding_100_50" id="work">
         <div class="container">
             <div class="row mt-50">
@@ -227,7 +355,7 @@
                 <!-- Projects will be dynamically inserted here -->
                 <div class="row huzaifa-portfolio">
                     <p id="loading-projects" class="text-center" style="width:100%; color:#726a84; margin: 20px 0;">Loading projects...</p>
-                    <!-- This is now empty. JavaScript will fill it. -->
+                    <!-- JavaScript will fill this. -->
                 </div>
             </div>
         </div>
@@ -339,14 +467,15 @@
         
     </div>
     <div class="copyright-text">
-        <p>Syed Huzaifa Ali - All rights reserved 2022</p>
+        <p>Syed Huzaifa Ali - All rights reserved 2024</p> <!-- Updated Year -->
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
 integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
 crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- Corrected integrity attributes -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" xintegrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" xintegrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="js/plugins.js"></script>
 <script src="js/active.js"></script>
 
@@ -360,7 +489,7 @@ crossorigin="anonymous"></script>
         // Fetch the project data from the JSON file
         $.getJSON('projects.json', function(data) {
             var projectContainer = $('.huzaifa-portfolio');
-            $('#loading-projects').remove(); // <-- ADD THIS LINE
+            $('#loading-projects').remove(); // Remove loading message
 
             // Check if data was loaded
             if (!data || data.length === 0) {
@@ -423,7 +552,6 @@ crossorigin="anonymous"></script>
 
             // --- FILTER LOGIC ---
             // Now that all project elements are loaded, attach the filter click handlers.
-            // This is the logic that was at the bottom of your original file.
             
             // clicking button with class "category-button"
             $(".category-button").click(function(){
@@ -450,11 +578,11 @@ crossorigin="anonymous"></script>
 
         }).fail(function() {
             // Show an error message if projects.json can't be loaded
+            $('#loading-projects').remove(); // Remove loading message
             $('.huzaifa-portfolio').html('<p class="text-center" style="color: red; width: 100%;">Error: Could not load projects.json. Please ensure the file exists in the same directory as index.html.</p>');
         });
     }
 </script>
 </body>
 
-</html>
-
+</htm

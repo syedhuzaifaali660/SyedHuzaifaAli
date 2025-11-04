@@ -336,7 +336,7 @@
       ]
    },
    {
-      "categories":["category1","category2","category7"],
+      "categories":["category1","category7"],
       "imageUrl":"img/projects/RealDeal.jpg",
       "altText":"Real Deal Thrift Hunter Project Screenshot",
       "title":"Real Deal Thrift Hunter",
@@ -650,4 +650,5 @@
          }
       ]
    }
+
 ]

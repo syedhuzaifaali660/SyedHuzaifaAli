@@ -343,6 +343,11 @@
       "description":"Put your thrift-hunting skills to the test! In Real Deal: Thrift Hunter, you'll be shown real items fetched from eBay and Poshmark, and your challenge is to guess their prices. Guess correctly and earn rewards! Use Power-Ups to freeze time, get hints, or summon Genee for help.",
       "links":[
          {
+            "url":"https://apps.apple.com/cn/app/real-deal-thrift-hunter/id6744292862",
+            "text":"iOS",
+            "icon":"fab fa-apple"
+         },
+         {
             "url":"https://play.google.com/store/apps/details?id=com.sellercave.realdealthrifthunter&hl=en",
             "text":"Android",
             "icon":"fab fa-android"
@@ -652,3 +657,4 @@
    }
 
 ]
+

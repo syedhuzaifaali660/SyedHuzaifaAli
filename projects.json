@@ -427,6 +427,20 @@
    },
    {
       "categories":["category1"],
+      "imageUrl":"img/projects/Scenic_AR_VTuber.webp",
+      "altText":"Scenic: AR VTuber Project Screenshot",
+      "title":"Scenic: AR VTuber Performance",
+      "description":"Implemented Optimized VRM model uploading pipeline.",
+      "links":[
+         {
+            "url":"https://apps.apple.com/us/app/scenic-ar-vtuber-performances/id1621779808",
+            "text":"iOS",
+            "icon":"fab fa-apple"
+         }
+      ]
+   },
+   {
+      "categories":["category1"],
       "imageUrl":"img/projects/Angry_Dino_Hunting.webp",
       "altText":"Angry Dino Hunting Project Screenshot",
       "title":"Angry Dino Hunting",
@@ -662,6 +676,7 @@
    }
 
 ]
+
 
 
 

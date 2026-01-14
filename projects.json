@@ -155,6 +155,20 @@
    },
    {
       "categories":["category2"],
+      "imageUrl":"img/projects/TikTok-Logo.png",
+      "altText":"TikTok Game Filter Project Screenshot",
+      "title":"TikTok Game Filter",
+      "description":"A TikTok game filter",
+      "links":[
+         {
+            "url":"https://www.tiktok.com/effect/The-Zoo-Filter--Emmy-Meli-3289349550",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
+   {
+      "categories":["category2"],
       "imageUrl":"img/projects/AR-Portal-Effect.jpeg",
       "altText":"AR Portal Effect Project Screenshot",
       "title":"AR Portal Effect",
@@ -676,6 +690,7 @@
    }
 
 ]
+
 
 
 

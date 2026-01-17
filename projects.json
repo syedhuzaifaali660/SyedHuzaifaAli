@@ -220,6 +220,11 @@
             "url":"https://www.youtube.com/watch?v=M_xdLI0-_qY",
             "text":"Watch Now",
             "icon":"fas fa-video"
+         },
+         {
+            "url":"https://www.instagram.com/reels/DJwqFxHKusI/",
+            "text":"Visit",
+            "icon":"fas fa-external-link-alt"
          }
       ]
    },
@@ -234,11 +239,6 @@
             "url":"https://www.youtube.com/shorts/kGfBF2OLqS0",
             "text":"Watch Now",
             "icon":"fas fa-video"
-         },
-         {
-            "url":"https://www.instagram.com/reels/DJwqFxHKusI/",
-            "text":"Visit",
-            "icon":"fas fa-external-link-alt"
          }
       ]
    },
@@ -695,6 +695,7 @@
    }
 
 ]
+
 
 
 

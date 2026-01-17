@@ -162,7 +162,7 @@
       "links":[
          {
             "url":"https://www.tiktok.com/effect/The-Zoo-Filter--Emmy-Meli-3289349550",
-            "text":"Visit Website",
+            "text":"Visit",
             "icon":"fas fa-external-link-alt"
          }
       ]
@@ -217,7 +217,7 @@
       "description":"This project brings a wormhole and spaceship animation to life when scanning a shirt creating an immersive WebAR experience.",
       "links":[
          {
-            "url":"https://www.youtube.com/watch?v=QR_Gff24AV8&ab_channel=SyedHuzaifaAli",
+            "url":"https://www.youtube.com/watch?v=M_xdLI0-_qY",
             "text":"Watch Now",
             "icon":"fas fa-video"
          }
@@ -234,6 +234,11 @@
             "url":"https://www.youtube.com/shorts/kGfBF2OLqS0",
             "text":"Watch Now",
             "icon":"fas fa-video"
+         },
+         {
+            "url":"https://www.instagram.com/reels/DJwqFxHKusI/",
+            "text":"Visit",
+            "icon":"fas fa-external-link-alt"
          }
       ]
    },
@@ -382,7 +387,7 @@
          },
          {
             "url":"https://games.sellercave.com/",
-            "text":"Visit Website",
+            "text":"Visit",
             "icon":"fas fa-external-link-alt"
          }
       ]
@@ -690,6 +695,7 @@
    }
 
 ]
+
 
 
 

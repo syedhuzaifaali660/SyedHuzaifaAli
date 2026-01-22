@@ -116,7 +116,7 @@
       "imageUrl":"img/projects/Scenic_AR_VTuber.webp",
       "altText":"Scenic: AR VTuber Project Screenshot",
       "title":"Scenic: AR VTuber Performance",
-      "description":"Implemented Optimized VRM model uploading pipeline.",
+      "description":"Implemented Optimized VRM model uploading pipeline & App crash issues due to RAM and CPU utilization",
       "links":[
          {
             "url":"https://apps.apple.com/us/app/scenic-ar-vtuber-performances/id1621779808",
@@ -723,6 +723,7 @@
    }
 
 ]
+
 
 
 

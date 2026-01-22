@@ -153,6 +153,20 @@
          }
       ]
    },
+      {
+      "categories":["category2"],
+      "imageUrl":"img/projects/ARCityBuilder.png",
+      "altText":"AR City Builder Project Screenshot",
+      "title":"AR City Builder",
+      "description":"An AR City Builder APP that uses image detection aswell as floor detection.",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=Q7SPyMvr-ow",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
    {
       "categories":["category2"],
       "imageUrl":"img/projects/TikTok-Logo.png",
@@ -709,6 +723,7 @@
    }
 
 ]
+
 
 
 

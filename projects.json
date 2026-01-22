@@ -571,6 +571,20 @@
          }
       ]
    },
+      {
+      "categories":["category6"],
+      "imageUrl":"img/projects/C-Section.png",
+      "altText":"C-Section Simulation Project Screenshot",
+      "title":"C-Section Simulation",
+      "description":"A simulation based on performing C-Section operation for medical training",
+      "links":[
+         {
+            "url":"https://www.youtube.com/watch?v=4pqqz1uI-Lc",
+            "text":"Watch Now",
+            "icon":"fas fa-video"
+         }
+      ]
+   },
    {
       "categories":["category5"],
       "imageUrl":"img/projects/GamificationCardGame.JPG",
@@ -695,6 +709,7 @@
    }
 
 ]
+
 
 
 

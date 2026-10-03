@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Portfolio of Syed Huzaifa Ali, a Lead Unity Developer with 6+ years of experience in 2D/3D games, AR/VR simulations, and cross-platform applications.">
+    <meta name="description" content="Portfolio of Syed Huzaifa Ali, a Technical Lead and Dev Ops Engineer specialising in spatial computing, simulations, games, and cross-platform applications.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Syed Huzaifa Ali</title>
@@ -12,16 +12,14 @@
 
     <!-- Corrected integrity attribute -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css?v=20261003-shorter-count-bar" rel="stylesheet">
 
-    <link href="css/responsive.css" rel="stylesheet">
-    
+    <link href="css/responsive.css?v=20261003-card-spacing" rel="stylesheet">
+
     <!-- Added for performance: CSS links moved from style.css -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
-    <link href="css/owl.carousel.min.css" rel="stylesheet">
-    <link href="css/slick.css" rel="stylesheet">
 
     <style>
         /* Mobile video fallback */
@@ -31,7 +29,7 @@
             }
             .wellcome_area {
                 /* Create a fallback image, e.g., a blurred screenshot of the video */
-                background-image: url('img/video-fallback.jpg'); 
+                background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('img/bg-img/slider-bg.jpg');
                 background-size: cover;
                 background-position: center;
             }
@@ -46,14 +44,16 @@
                 <div class="col-12">
                     <div class="menu_area">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand desktop-brand" href="./"><img src="img/logo.svg" class="brand-identity" alt="Syed Huzaifa Ali Logo"></a>
-                            <a class="navbar-brand" href="#"><img src="img/logo.png" class="brand-identity-scroll" alt="Syed Huzaifa Ali Logo (Scroll)"></a>
+                            <a class="navbar-brand desktop-brand" href="#home"><img src="img/logo.svg" class="brand-identity" alt="Syed Huzaifa Ali Logo"></a>
+                            <a class="navbar-brand" href="#home"><img src="img/logo.png" class="brand-identity-scroll" alt="Syed Huzaifa Ali Logo (Scroll)"></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
                             <div class="collapse navbar-collapse" id="ca-navbar">
                                 <ul class="navbar-nav mr-auto" id="nav">
-                                    <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#companies">Companies</a></li>
                                 </ul>
                                 <div class="sing-up-btn-group">
                                 <div class="sing-up-button">
@@ -72,7 +72,7 @@
     </header>
     <section class="wellcome_area clearfix" id="home">
         <div class="video-background">
-            <video autoplay muted loop>
+            <video autoplay muted loop playsinline aria-hidden="true">
                 <source src="img/video/geek.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -83,249 +83,179 @@
                 <div class="col-12 col-md">
                     <div class="get-start-area">
                         <div class="text-center">
-                        <div class="profile-pic">
-                            <!-- <img src="ProfilePicture/ProfessionalPicture_01.jpeg" alt="Professional headshot of Syed Huzaifa Ali"> -->
+                            <h1 class="web-white slider-heading">Syed Huzaifa Ali</h1>
+                            <p class="web-white slider-description">
+                                <span class="hero-roles"><span>Technical Lead</span><span class="hero-separator" aria-hidden="true"> | </span><span>Dev Ops Engineer</span></span>
+                                <span class="hero-specialty">Spatial Computing &amp; Simulation</span>
+                            </p>
+                            <div class="portfolio-visits" data-count-label="Portfolio visits" title="Visits since tracking started. Repeat visits within a session are deduplicated; counts update periodically.">
+                                <i class="fas fa-eye" aria-hidden="true"></i>
+                                <span data-counter-path="/portfolio">—</span><span>portfolio visits</span>
+                            </div>
                         </div>
-                        <h2 class="web-white slider-heading mb-5">Syed Huzaifa Ali</h2>
-                            <p class="web-white slider-description">Technical Lead | Senior Software Engineer | Spatial Computing & Simulation</p>
-                        </div>
-                        
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="special-area bg-white section_padding_100" id="about">
+    <div class="profile-overview section_padding_100">
         <div class="container">
-
-            <div class="special_description_area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="special_description_content">
-                            <h2>About me</h2>
+            <div class="profile-layout">
+                <section class="profile-about" id="about" aria-labelledby="about-heading">
+                    <div class="special_description_content">
+                        <h2 id="about-heading">About me</h2>
+                        <p>I’m a software engineer and technical lead with eight years of experience building real-time simulations, spatial computing systems, and interactive applications across mobile, web, and immersive platforms. I combine hands-on development in C#, Python, and Unity with modular architecture, performance optimization, and reliable build and release workflows.</p>
+                            <p>At Fraunhofer ISE, I currently focus on DevOps and backend development. I previously developed the now-released Heat Pump PlanAR, an iPad-based spatial planning application for heat-pump installations that combines ARKit, LiDAR-aware workflows, persistent mapping, and optimized pipe routing. Previously, I led a 10-person multidisciplinary team and delivered three enterprise simulation programs for GSK, Abbott, and Roche. My work also spans medical training, digital twins, multiplayer systems, and AR/VR experiences—from early prototypes through production delivery.</p>
+                            <nav class="about-social-links" aria-label="Social profiles">
+                                <a href="https://www.linkedin.com/in/syed-huzaifa-ali/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                                <a href="https://github.com/syedhuzaifaali660" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                                <a href="https://www.youtube.com/channel/UCpfKpCsfVGrZ2CCt9fdQbzg" target="_blank" rel="noopener noreferrer" aria-label="YouTube (opens in a new tab)" title="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                            </nav>
+                    </div>
+                </section>
+                <section class="profile-skills" id="skills" aria-labelledby="skills-heading">
+                    <div class="profile-skills-heading">
+                        <div class="skills-heading-copy">
+                            <h2 id="skills-heading">Skills &amp; Expertise</h2>
+                            <p>The tools, systems, and people skills I bring to every build.</p>
                         </div>
+                        <ul class="skills-languages" aria-label="Language proficiency">
+                            <li><span>English</span><strong>C1</strong><span class="language-dots" aria-hidden="true"><span class="is-filled"></span><span class="is-filled"></span><span class="is-filled"></span><span class="is-filled"></span><span class="is-filled"></span></span></li>
+                            <li><span>German</span><strong>A1</strong><span class="language-dots" aria-hidden="true"><span class="is-filled"></span><span></span><span></span><span></span><span></span></span></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="special_description_content">
-                            <p>As a highly skilled and experienced IT professional with 6 years of experience in the field, I bring expertise in 2D and 3D games, simulations, AR/VR and R&D. With a focus on architecture and data flow, I have demonstrated a proven track record in application development for various platforms, including Android, iOS, Desktop, and WebGL. I have experience in leading teams, managing projects and continuously striving for project excellence through innovative solutions and proactive suggestions. I possess excellent communication and problem-solving skills, enabling me to effectively collaborate with cross-functional teams for seamless project execution.</p>
-                            <!-- <div class="app-download-area">
-                                <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
-                                    <a href="syed-huzaifa-ali-resume.pdf" target="_blank">
-                                        <i class="far fa-file-alt"></i>
-                                        <p class="mb-0">Download CV</p>
-                                    </a>
-                                </div>
-                            </div> -->
+                    <div class="skills-directory">
+                        <section class="skill-topic" aria-labelledby="skill-title-1">
+                            <h3 id="skill-title-1"><span aria-hidden="true">01</span> Programming</h3>
+                            <ul class="skill-names"><li>LINQ</li><li>REST APIs</li></ul>
+                        </section>
+                        <section class="skill-topic" aria-labelledby="skill-title-2">
+                            <h3 id="skill-title-2"><span aria-hidden="true">02</span> Spatial Computing &amp; XR</h3>
+                            <ul class="skill-names"><li>AR / VR / MR</li><li>Medical Simulation</li><li>WebXR</li><li>AR Foundation</li><li>ARKit</li><li>ARCore</li><li>Vuforia</li><li>XR Interaction Toolkit</li><li>Room Scanning</li><li>Persistent Mapping</li><li>World-map Save / Load</li></ul>
+                        </section>
+                        <section class="skill-topic" aria-labelledby="skill-title-3">
+                            <h3 id="skill-title-3"><span aria-hidden="true">03</span> Architecture &amp; Engineering</h3>
+                            <ul class="skill-names"><li>Application Architecture</li><li>Data Flow</li><li>Performance Optimization</li><li>Addressables</li><li>NUnit</li><li>Playmode Testing</li><li>UI Toolkit</li><li>Cinemachine</li><li>Animations</li></ul>
+                        </section>
+                        <section class="skill-topic" aria-labelledby="skill-title-4">
+                            <h3 id="skill-title-4"><span aria-hidden="true">04</span> Multiplayer &amp; Real-Time</h3>
+                            <ul class="skill-names"><li>Photon PUN 2</li><li>Agora</li><li>Ready Player Me</li><li>Matchmaking</li><li>Voice Chat</li><li>Leaderboards</li><li>IoT Data Visualization</li></ul>
+                        </section>
+                        <section class="skill-topic" aria-labelledby="skill-title-5">
+                            <h3 id="skill-title-5"><span aria-hidden="true">05</span> AI, Computer Vision &amp; Automation</h3>
+                            <ul class="skill-names"><li>NLP</li><li>Image Detection</li><li>Kinect / Depth Sensors</li><li>R&amp;D</li><li>Workflow Automation</li></ul>
+                        </section>
+                        <section class="skill-topic" aria-labelledby="skill-title-6">
+                            <h3 id="skill-title-6"><span aria-hidden="true">06</span> DevOps, Release &amp; Tools</h3>
+                            <ul class="skill-names"><li>CI/CD</li></ul>
+                        </section>
+                        <section class="skill-topic" aria-labelledby="skill-title-7">
+                            <h3 id="skill-title-7"><span aria-hidden="true">07</span> Platforms &amp; Product</h3>
+                            <ul class="skill-names"><li>PC</li><li>WebGL</li><li>Gamification</li><li>Social Logins</li><li>Game Analytics</li><li>Unity Ads</li><li>AdMob</li><li>Cloud Storage</li><li>Blockchain Wallets</li></ul>
+                        </section>
+                        <section class="skill-topic" aria-labelledby="skill-title-8">
+                            <h3 id="skill-title-8"><span aria-hidden="true">08</span> Technical Leadership</h3>
+                            <ul class="skill-names"><li>Team Leadership</li><li>Developer Mentoring</li><li>Cross-functional Collaboration</li><li>UI/UX Coordination</li><li>Roadmap Planning</li><li>Risk Management</li><li>Problem Solving</li><li>Client Communication</li></ul>
+                        </section>
+                    </div>
+                    <section class="technology-bar" id="technologies" aria-labelledby="technology-heading">
+                        <h3 id="technology-heading">Tools &amp; technologies</h3>
+                        <div class="technology-groups">
+                            <section class="technology-group" aria-labelledby="technology-group-1">
+                                <h4 id="technology-group-1">Languages</h4>
+                                <ul class="technology-icons">
+                                    <li><img src="img/skills/csharp.svg" width="30" height="30" alt="" loading="lazy"><span>C#</span></li>
+                                    <li><img src="img/skills/javascript.svg" width="30" height="30" alt="" loading="lazy"><span>JavaScript</span></li>
+                                    <li><img src="img/skills/python.svg" width="30" height="30" alt="" loading="lazy"><span>Python</span></li>
+                                    <li><img src="img/skills/php.svg" width="30" height="30" alt="" loading="lazy"><span>PHP</span></li>
+                                    <li><img src="img/skills/html5.svg" width="30" height="30" alt="" loading="lazy"><span>HTML</span></li>
+                                    <li><img src="img/skills/css3.svg" width="30" height="30" alt="" loading="lazy"><span>CSS</span></li>
+                                    <li><img src="img/skills/json.svg" width="30" height="30" alt="" loading="lazy"><span>JSON</span></li>
+                                    <li><img src="img/skills/xml.svg" width="30" height="30" alt="" loading="lazy"><span>XML</span></li>
+                                </ul>
+                            </section>
+                            <section class="technology-group" aria-labelledby="technology-group-2">
+                                <h4 id="technology-group-2">Engine &amp; Backend</h4>
+                                <ul class="technology-icons">
+                                    <li><img src="img/skills/unity.svg" width="30" height="30" alt="" loading="lazy"><span>Unity 3D</span></li>
+                                    <li><img src="img/skills/firebase.svg" width="30" height="30" alt="" loading="lazy"><span>Firebase</span></li>
+                                    <li><i class="fas fa-database" aria-hidden="true"></i><span>Databases</span></li>
+                                </ul>
+                            </section>
+                            <section class="technology-group" aria-labelledby="technology-group-3">
+                                <h4 id="technology-group-3">DevOps</h4>
+                                <ul class="technology-icons">
+                                    <li><img src="img/skills/git.svg" width="30" height="30" alt="" loading="lazy"><span>Git</span></li>
+                                    <li><img src="img/skills/githubactions.svg" width="30" height="30" alt="" loading="lazy"><span>GitHub Actions</span></li>
+                                    <li><img src="img/skills/jenkins.svg" width="30" height="30" alt="" loading="lazy"><span>Jenkins</span></li>
+                                    <li><img src="img/skills/docker.svg" width="30" height="30" alt="" loading="lazy"><span>Docker</span></li>
+                                    <li><img src="img/skills/amazonwebservices.svg" width="30" height="30" alt="" loading="lazy"><span>AWS</span></li>
+                                </ul>
+                            </section>
+                            <section class="technology-group" aria-labelledby="technology-group-4">
+                                <h4 id="technology-group-4">Stores &amp; Platforms</h4>
+                                <ul class="technology-icons">
+                                    <li><i class="fab fa-app-store-ios" aria-hidden="true"></i><span>App Store Connect</span></li>
+                                    <li><i class="fab fa-google-play" aria-hidden="true"></i><span>Google Play</span></li>
+                                    <li><img src="img/skills/apple.svg" width="30" height="30" alt="" loading="lazy"><span>iOS</span></li>
+                                    <li><img src="img/skills/android.svg" width="30" height="30" alt="" loading="lazy"><span>Android</span></li>
+                                </ul>
+                            </section>
+                            <section class="technology-group" aria-labelledby="technology-group-5">
+                                <h4 id="technology-group-5">Project &amp; Design</h4>
+                                <ul class="technology-icons">
+                                    <li><img src="img/skills/jira.svg" width="30" height="30" alt="" loading="lazy"><span>Jira</span></li>
+                                    <li><img src="img/skills/trello.svg" width="30" height="30" alt="" loading="lazy"><span>Trello</span></li>
+                                    <li><img src="img/skills/photoshop.svg" width="30" height="30" alt="" loading="lazy"><span>Photoshop</span></li>
+                                </ul>
+                            </section>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <ul class="skills-badge list-inline">   
-			    <li class="list-inline-item"><div>C#</div></li> 
-			    <li class="list-inline-item"><div>HTML</div></li> 
-			    <li class="list-inline-item"><div>CSS</div></li> 
-			    <li class="list-inline-item"><div>JavaScript</div></li> 
-			    <li class="list-inline-item"><div>Python</div></li> 
-			    <li class="list-inline-item"><div>PHP</div></li> 
-			    <li class="list-inline-item"><div>LINQ</div></li> 
-			    <li class="list-inline-item"><div>AR</div></li> 
-			    <li class="list-inline-item"><div>ARCore</div></li>
-			    <li class="list-inline-item"><div>ARKit</div></li>
-			    <li class="list-inline-item"><div>VR</div></li> 
-			    <li class="list-inline-item"><div>MR</div></li> 
-			    <li class="list-inline-item"><div>XR Interaction Toolkit</div></li>
-			    <li class="list-inline-item"><div>Web-GL/Web-XR</div></li> 
-			    <li class="list-inline-item"><div>Agora</div></li> 
-			    <li class="list-inline-item"><div>Unity 3D</div></li> 
-			    <li class="list-inline-item"><div>Animations</div></li> 
-			    <li class="list-inline-item"><div>IOS/ Android/ PC</div></li> 
-			    <li class="list-inline-item"><div>GitHub</div></li> 
-			    <li class="list-inline-item"><div>GitHub Actions</div></li>
-			    <li class="list-inline-item"><div>Jira</div></li>
-			    <li class="list-inline-item"><div>Trello</div></li>
-			    <li class="list-inline-item"><div>Jenkins</div></li>
-			    <li class="list-inline-item"><div>Multiplayer</div></li> 
-			    <li class="list-inline-item"><div>Photon PUN 2</div></li>
-			    <li class="list-inline-item"><div>Social Logins</div></li>
-			    <li class="list-inline-item"><div>Analytics</div></li>
-			    <li class="list-inline-item"><div>Game Analytics</div></li>
-			    <li class="list-inline-item"><div>Adobe Photoshop</div></li> 
-			    <li class="list-inline-item"><div>Firebase</div></li>
-			    <li class="list-inline-item"><div>REST API</div></li>
-			    <li class="list-inline-item"><div>JSON</div></li>
-			    <li class="list-inline-item"><div>XML</div></li>
-			    <li class="list-inline-item"><div>Addressables</div></li>		
-			    <li class="list-inline-item"><div>Unity Ads</div></li>
-			    <li class="list-inline-item"><div>AdMob</div></li>
-			    <li class="list-inline-item"><div>NUnit Testing</div></li>
-			    <li class="list-inline-item"><div>CI/CD</div></li>
-			    <li class="list-inline-item"><div>Ready Player Me</div></li>
-			</ul>
-                    </div>
-                </div>
+                    </section>
+                </section>
             </div>
         </div>
     </div>
-        
-</section>
 
-
-        <section class="cool_facts_area clearfix">
+    <section class="cool_facts_area clearfix" aria-label="Portfolio project counts">
         <div class="container">
             <div class="row">
-                
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-6 col-md-3">
+                    <div class="single-cool-fact d-flex">
                         <div class="counter-area">
-                            <h3><span class="counter">19</span></h3>
+                            <h3><span data-project-stat="total" aria-label="Loading count">—</span></h3>
                         </div>
-                        <div class="cool-facts-content">
-                            <p>Gaming Applications</p>
-                        </div>
+                        <div class="cool-facts-content"><p>Total Projects</p></div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-6 col-md-3">
+                    <div class="single-cool-fact d-flex">
                         <div class="counter-area">
-                            <h3><span class="counter">25</span></h3>
+                            <h3><span data-project-stat="games" aria-label="Loading count">—</span></h3>
                         </div>
-                        <div class="cool-facts-content">
-                            <p>Mixed Reality</p>
-                        </div>
+                        <div class="cool-facts-content"><p>Games</p></div>
                     </div>
                 </div>
-                
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-6 col-md-3">
+                    <div class="single-cool-fact d-flex">
                         <div class="counter-area">
-                            <h3><span class="counter">3</span></h3>
+                            <h3><span data-project-stat="xr" aria-label="Loading count">—</span></h3>
                         </div>
-                        <div class="cool-facts-content">
-                            <p>WebGL</p>
-                        </div>
+                        <div class="cool-facts-content"><p>AR / VR Projects</p></div>
                     </div>
                 </div>
-                
-                <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
+                <div class="col-6 col-md-3">
+                    <div class="single-cool-fact d-flex">
                         <div class="counter-area">
-                            <h3><span class="counter">3</span></h3>
+                            <h3><span data-project-stat="webgl" aria-label="Loading count">—</span></h3>
                         </div>
-                        <div class="cool-facts-content">
-                            <p>Awards & Publications</p>
-                        </div>
+                        <div class="cool-facts-content"><p>WebGL Projects</p></div>
                     </div>
                 </div>
             </div>
+            <p class="project-counts-note">Counts reflect the projects shown below. Categories may overlap.</p>
         </div>
     </section>
-
-<!-- Tech Stack Slider Section -->
-<section class="tech-stack-slider-area">
-    <div class="software-skills-main-div">
-        <ul class="dev-icons">
-            <li class="software-skill-inline" name="Unity">
-                <i class="fab fa-unity"></i>
-                <p>Unity</p>
-            </li>
-            <li class="software-skill-inline" name="C#">
-                <i class="fas fa-code"></i>
-                <p>C#</p>
-            </li>
-            <li class="software-skill-inline" name="Android">
-                <i class="fab fa-android"></i>
-                <p>Android</p>
-            </li>
-            <li class="software-skill-inline" name="iOS">
-                <i class="fab fa-apple"></i>
-                <p>iOS</p>
-            </li>
-            <li class="software-skill-inline" name="AR/VR">
-                <i class="fas fa-vr-cardboard"></i>
-                <p>AR/VR</p>
-            </li>
-            <li class="software-skill-inline" name="Firebase">
-                <i class="fas fa-fire"></i>
-                <p>Firebase</p>
-            </li>
-            <li class="software-skill-inline" name="Git">
-                <i class="fab fa-git-alt"></i>
-                <p>Git</p>
-            </li>
-            <li class="software-skill-inline" name="JavaScript">
-                <i class="fab fa-js"></i>
-                <p>JavaScript</p>
-            </li>
-            <li class="software-skill-inline" name="Python">
-                <i class="fab fa-python"></i>
-                <p>Python</p>
-            </li>
-            <li class="software-skill-inline" name="Docker">
-                <i class="fab fa-docker"></i>
-                <p>Docker</p>
-            </li>
-            <li class="software-skill-inline" name="AWS">
-                <i class="fab fa-aws"></i>
-                <p>AWS</p>
-            </li>
-            <li class="software-skill-inline" name="Database">
-                <i class="fas fa-database"></i>
-                <p>Database</p>
-            </li>
-            <!-- Duplicate for seamless scrolling -->
-            <li class="software-skill-inline" name="Unity">
-                <i class="fab fa-unity"></i>
-                <p>Unity</p>
-            </li>
-            <li class="software-skill-inline" name="C#">
-                <i class="fas fa-code"></i>
-                <p>C#</p>
-            </li>
-            <li class="software-skill-inline" name="Android">
-                <i class="fab fa-android"></i>
-                <p>Android</p>
-            </li>
-            <li class="software-skill-inline" name="iOS">
-                <i class="fab fa-apple"></i>
-                <p>iOS</p>
-            </li>
-            <li class="software-skill-inline" name="AR/VR">
-                <i class="fas fa-vr-cardboard"></i>
-                <p>AR/VR</p>
-            </li>
-            <li class="software-skill-inline" name="Firebase">
-                <i class="fas fa-fire"></i>
-                <p>Firebase</p>
-            </li>
-            <li class="software-skill-inline" name="Git">
-                <i class="fab fa-git-alt"></i>
-                <p>Git</p>
-            </li>
-            <li class="software-skill-inline" name="JavaScript">
-                <i class="fab fa-js"></i>
-                <p>JavaScript</p>
-            </li>
-            <li class="software-skill-inline" name="Python">
-                <i class="fab fa-python"></i>
-                <p>Python</p>
-            </li>
-            <li class="software-skill-inline" name="Docker">
-                <i class="fab fa-docker"></i>
-                <p>Docker</p>
-            </li>
-            <li class="software-skill-inline" name="AWS">
-                <i class="fab fa-aws"></i>
-                <p>AWS</p>
-            </li>
-            <li class="software-skill-inline" name="Database">
-                <i class="fas fa-database"></i>
-                <p>Database</p>
-            </li>
-        </ul>
-    </div>
-</section>
 
     <section class="special-area bg-white section_padding_100_50" id="work">
         <div class="container">
@@ -342,142 +272,89 @@
             <div id="items" class="container-flui">
                 <br>
                 <div class="btn-category-group text-center mb-4">
-                    <button type="button" class="btn category-button current" data-filter = "all"> All </button>
-                    <button type="button" class="btn category-button" data-filter = "category1"> Games </button>
-                    <button type="button" class="btn category-button" data-filter = "category2"> Augmented Reality </button>
-                    <button type="button" class="btn category-button" data-filter = "category3"> Virtual Reality </button> 
-                    <button type="button" class="btn category-button" data-filter = "category4"> Kinect </button> 
-                    <button type="button" class="btn category-button" data-filter = "category5"> Gamification </button>
-                    <button type="button" class="btn category-button" data-filter = "category6"> Medical Simulations </button>
-                    <button type="button" class="btn category-button" data-filter = "category7"> Web GL </button>
+                    <button type="button" class="btn category-button current" aria-pressed="true" data-filter = "all"> All </button>
+                    <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category1"> Games </button>
+                    <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category2"> Augmented Reality </button>
+                    <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category3"> Virtual Reality </button>
+                    <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category4"> Kinect </button>
+                    <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category5"> Gamification </button>
+                    <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category6"> Medical Simulations </button>
+                    <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category7"> WebGL </button>
+                    <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category8"> AI &amp; Computer Vision </button>
+                    <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category9"> Tools &amp; Demos </button>
                 </div>
-      
+
                 <!-- Projects will be dynamically inserted here -->
-                <div class="row huzaifa-portfolio">
+                <div class="row huzaifa-portfolio" id="project-grid">
                     <p id="loading-projects" class="text-center" style="width:100%; color:#726a84; margin: 20px 0;">Loading projects...</p>
                     <!-- JavaScript will fill this. -->
                 </div>
             </div>
         </div>
     </section>
-    <section class="special-area bg-white section_padding_100" id="about">
-    <div class="container">
-
-        <div class="special_description_area">
+    <section class="special-area bg-white section_padding_100 companies-section" id="companies" aria-labelledby="companies-heading">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="special_description_content text-center">
-                        <h2>Clients</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
+            <div class="section-heading text-center">
+                <h2 id="companies-heading">Companies</h2>
+                <div class="line-shape"></div>
+                <p class="companies-intro">Teams and organisations I have built products, simulations, and interactive experiences for.</p>
             </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="special_description_content">
-                        <div class="logos-container">
-                            <div class="logos-scroll">
-                                <!-- Track 1: Original -->
-                                <div class="logos-track">
-                                    <div class="logo-item">
-                                        <img src="img/clients/1.png" alt="Client 1 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/2.png" alt="Client 2 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/3.png" alt="Client 3 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/4.png" alt="Client 4 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/5.png" alt="Client 5 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/6.png" alt="Client 6 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/7.png" alt="Client 7 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/8.png" alt="Client 8 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/9.png" alt="Client 9 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/10.png" alt="Client 10 Logo">
-                                    </div>
-                                </div>
-                                <!-- Track 2: Duplicate for seamless scroll -->
-                                <div class="logos-track">
-                                    <div class="logo-item">
-                                        <img src="img/clients/1.png" alt="Client 1 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/2.png" alt="Client 2 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/3.png" alt="Client 3 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/4.png" alt="Client 4 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/5.png" alt="Client 5 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/6.png" alt="Client 6 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/7.png" alt="Client 7 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/8.png" alt="Client 8 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/9.png" alt="Client 9 Logo">
-                                    </div>
-                                    <div class="logo-item">
-                                        <img src="img/clients/10.png" alt="Client 10 Logo">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                
-                    </div>
-                </div>
+            <div class="companies-grid" role="list" aria-label="Companies and organisations">
+                <article class="company-card" role="listitem">
+                    <div class="company-logo-frame"><img src="img/clients/1.png" alt="GSK logo"></div>
+                </article>
+                <article class="company-card" role="listitem">
+                    <div class="company-logo-frame company-logo-getz"><img src="img/clients/2.png" alt="Getz Pharma logo"></div>
+                </article>
+                <article class="company-card" role="listitem">
+                    <div class="company-logo-frame"><img src="img/clients/3.png" alt="Bayer logo"></div>
+                </article>
+                <article class="company-card" role="listitem">
+                    <div class="company-logo-frame"><img src="img/clients/4.png" alt="Roche logo"></div>
+                </article>
+                <article class="company-card" role="listitem">
+                    <div class="company-logo-frame company-logo-abbott"><img src="img/clients/5.png" alt="Abbott logo"></div>
+                </article>
+                <article class="company-card" role="listitem">
+                    <div class="company-logo-frame"><img src="img/clients/fraunhofer-ise.png" alt="Fraunhofer ISE logo"></div>
+                </article>
+                <article class="company-card" role="listitem">
+                    <div class="company-logo-frame"><img src="img/clients/6.png" alt="Metaltronica logo"></div>
+                </article>
+                <article class="company-card" role="listitem">
+                    <div class="company-logo-frame"><img src="img/clients/7.png" alt="Menarini logo"></div>
+                </article>
+                <article class="company-card" role="listitem">
+                    <div class="company-logo-frame"><img src="img/clients/8.png" alt="NED University logo"></div>
+                </article>
             </div>
-
         </div>
-    </div>
-</div>
-    
-</section>
+    </section>
 
 <footer class="footer-bg text-center clearfix section_padding_100_50">
     <div class="footer-social-icon">
-        <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/syed-huzaifa-ali/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-        <a target="_blank" title="Google Drive" href="https://www.youtube.com/channel/UCpfKpCsfVGrZ2CCt9fdQbzg"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-        <a target="_blank" title="NED University" href="https://csrd.neduet.edu.pk/"><i class="fas fa-university"></i></a>
+        <a target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/syed-huzaifa-ali/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+        <a target="_blank" rel="noopener noreferrer" title="YouTube" aria-label="YouTube" href="https://www.youtube.com/channel/UCpfKpCsfVGrZ2CCt9fdQbzg"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+        <a target="_blank" rel="noopener noreferrer" title="NED University" aria-label="NED University" href="https://csrd.neduet.edu.pk/"><i class="fas fa-university"></i></a>
 
-        
+
     </div>
     <div class="copyright-text">
-        <p>Syed Huzaifa Ali - All rights reserved 2024</p> <!-- Updated Year -->
+        <p>Syed Huzaifa Ali - All rights reserved 2026</p>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
 integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
 crossorigin="anonymous"></script>
 <!-- Corrected integrity attributes -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" xintegrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" xintegrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="js/plugins.js"></script>
-<script src="js/active.js"></script>
+<script src="js/active.js?v=20261003-final-audit"></script>
+<script src="js/project-stats.js"></script>
+<script src="js/portfolio-analytics.js?v=20261003-hover-views"></script>
+<script src="js/skills.js?v=20261003-restored-cards"></script>
 
 
 <script>
@@ -487,9 +364,14 @@ crossorigin="anonymous"></script>
 
     function loadProjects() {
         // Fetch the project data from the JSON file
-        $.getJSON('projects.json', function(data) {
+        $.ajax({ url: 'projects.json', dataType: 'json', cache: false }).done(function(data) {
             var projectContainer = $('.huzaifa-portfolio');
             $('#loading-projects').remove(); // Remove loading message
+
+            var stats = getProjectStats(data || []);
+            $('[data-project-stat]').each(function () {
+                $(this).text(stats[this.dataset.projectStat]).removeAttr('aria-label');
+            });
 
             // Check if data was loaded
             if (!data || data.length === 0) {
@@ -501,58 +383,56 @@ crossorigin="anonymous"></script>
             $.each(data, function(index, project) {
                 // Join all categories into a space-separated string for the class
                 var categoryClasses = project.categories.join(' ');
-                
+
                 // Start building the HTML string for the project card
-                var projectHtml = '<div class="col-lg-4 col-md-6 col-sm-6 align-self-stretch mb-4 all ' + categoryClasses + ' well">';
-                
-                projectHtml += '<div class="single-special text-center">';
-                projectHtml += '<div class="project-header"><img src="' + project.imageUrl + '" alt="' + project.altText + '"></div>';
+                var projectHtml = '<div class="col-lg-4 col-md-6 align-self-stretch mb-4 all ' + categoryClasses + ' well">';
+
+                var projectId = window.portfolioAnalytics.projectKey(project);
+                var attributeTitle = $('<div>').text(project.title).html().replace(/"/g, '&quot;');
+                projectHtml += '<article class="single-special text-center" data-project-id="' + projectId + '" data-project-title="' + attributeTitle + '">';
+                var thumbnailFit = project.thumbnailFit === 'contain' ? 'contain' : 'cover';
+                var thumbnailPosition = project.thumbnailPosition || '50% 50%';
+                projectHtml += '<div class="project-header" style="--thumbnail-fit:' + thumbnailFit + ';--thumbnail-position:' + thumbnailPosition + '"><img src="' + project.imageUrl + '" alt="' + project.altText + '" loading="lazy" draggable="false">';
+                if (project.imageCredit) projectHtml += '<span class="project-image-credit">' + project.imageCredit + '</span>';
+                projectHtml += '<div class="project-metrics" aria-label="Project views">';
+                projectHtml += '<span data-count-label="Card views" title="Views: a card button click or 10 seconds of continuous mouse hover; repeat views within a session are deduplicated."><i class="fas fa-eye" aria-hidden="true"></i> <span data-counter-path="card-view-' + projectId + '">—</span></span>';
+                projectHtml += '</div></div>';
                 projectHtml += '<div class="project-body">';
                 projectHtml += '<h4>' + project.title + '</h4>';
-                
+
                 // Add the description, handling potential undefined or null values
                 projectHtml += '<p>' + (project.description || '') + '</p>';
 
-                // Check how many links there are to decide on button layout
-                if (project.links && project.links.length === 1) {
-                    // Single link (e.g., "Watch Now")
-                    projectHtml += '<div class="app-download-btn mt-4">';
-                    projectHtml += '<a href="' + project.links[0].url + '" target="_blank" rel="noopener noreferrer">';
-                    
-                    var linkText = project.links[0].text;
-                    var iconClass = project.links[0].icon;
-                    
-                    // Special case for "View More" links to put icon after text
-                    if (linkText === "View More") {
-                        projectHtml += '<p class="mb-0">' + linkText + ' <i class="' + iconClass + '" aria-hidden="true"></i></p>';
-                    } else {
-                        projectHtml += '<p class="mb-0"><i class="' + iconClass + '"></i> ' + linkText + '</p>';
-                    }
-                    projectHtml += '</a></div>';
-
-                } else if (project.links && project.links.length > 1) {
-                    // Multiple links (e.g., "Android" and "iOS")
-                    projectHtml += '<div class="btn-group mt-3">';
+                // Render every card's links through the same responsive button group.
+                if (project.links && project.links.length) {
+                    projectHtml += '<div class="btn-group">';
                     $.each(project.links, function(i, link) {
                         projectHtml += '<div class="app-download-btn">';
-                        projectHtml += '<a href="' + link.url + '" target="_blank" rel="noopener noreferrer">';
-                        projectHtml += '<p class="mb-0"><i class="' + link.icon + '"></i> ' + link.text + '</p>';
+                        projectHtml += '<a href="' + link.url + '" target="_blank" rel="noopener noreferrer" data-project-button="' + window.portfolioAnalytics.projectKey({title: link.text}) + '">';
+                        if (link.text === "View More") {
+                            projectHtml += '<p class="mb-0">' + link.text + ' <i class="' + link.icon + '" aria-hidden="true"></i></p>';
+                        } else {
+                            projectHtml += '<p class="mb-0"><i class="' + link.icon + '" aria-hidden="true"></i> ' + link.text + '</p>';
+                        }
                         projectHtml += '</a></div>';
                     });
                     projectHtml += '</div>';
                 }
-                
+
                 projectHtml += '</div>'; // close .project-body
-                projectHtml += '</div>'; // close .single-special
-                projectHtml += '</div>'; // close .col-lg-4
+                projectHtml += '</article>'; // close .single-special
+                projectHtml += '</div>'; // close project column
 
                 // Append the newly created HTML to the container
                 projectContainer.append(projectHtml);
             });
 
+            if (window.initProjectCardEffects) window.initProjectCardEffects();
+            window.portfolioAnalytics.initProjects();
+
             // --- FILTER LOGIC ---
             // Now that all project elements are loaded, attach the filter click handlers.
-            
+
             // clicking button with class "category-button"
             $(".category-button").click(function(){
                 // get the data-filter value of the button
@@ -560,23 +440,25 @@ crossorigin="anonymous"></script>
 
                 // Handle button active state
                 $('.btn-category-group .current').removeClass('current');
-                $(this).addClass('current');
-                
+                $('.category-button').attr('aria-pressed', 'false');
+                $(this).addClass('current').attr('aria-pressed', 'true');
+
                 // show all items
                 if(filterValue == "all")
                 {
-                    $(".all").show("slow");
+                    $(".all").show();
                 }
                 else
-                {   
+                {
                     // hide all items
-                    $(".all").not('.'+filterValue).hide("slow");
+                    $(".all").not('.'+filterValue).hide();
                     // and then, show only items with selected data-filter value
-                    $(".all").filter('.'+filterValue).show("slow");
+                    $(".all").filter('.'+filterValue).show();
                 }
             });
 
         }).fail(function() {
+            $('[data-project-stat]').text('—').attr('aria-label', 'Count unavailable');
             // Show an error message if projects.json can't be loaded
             $('#loading-projects').remove(); // Remove loading message
             $('.huzaifa-portfolio').html('<p class="text-center" style="color: red; width: 100%;">Error: Could not load projects.json. Please ensure the file exists in the same directory as index.html.</p>');
@@ -585,4 +467,4 @@ crossorigin="anonymous"></script>
 </script>
 </body>
 
-</htm
+</html>

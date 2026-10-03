@@ -111,14 +111,24 @@
         });
     }
 
-    // :: 6.0 onePageNav Active Code
-    if ($.fn.onePageNav) {
-        $('#nav').onePageNav({
-            currentClass: 'active',
-            scrollSpeed: 2000,
-            easing: 'easeOutQuad'
+    // Read section positions on every click; filtering projects changes page height.
+    $('#nav a[href^="#"], .navbar-brand[href^="#"]').on('click', function (event) {
+        var target = document.querySelector(this.getAttribute('href'));
+        if (!target) return;
+        event.preventDefault();
+        var $menu = $('#ca-navbar');
+        if ($menu.hasClass('collapsing')) {
+            $menu.one('shown.bs.collapse', function () { $menu.collapse('hide'); });
+        } else {
+            $menu.collapse('hide');
+        }
+        target.scrollIntoView({
+            behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+            block: 'start'
         });
-    }
+        history.replaceState(null, '', this.getAttribute('href'));
+        updateNavigation();
+    });
 
     // :: 7.0 Magnific-popup Video Active Code
     if ($.fn.magnificPopup) {
@@ -143,13 +153,20 @@
     }
 
     // :: 8.0 Sticky Active Code
-    $window.on('scroll', function () {
-        if ($window.scrollTop() > 48) {
-            $('.header_area').addClass('sticky slideInDown');
-        } else {
-            $('.header_area').removeClass('sticky slideInDown');
-        }
-    });
+    function updateNavigation() {
+        var scrollTop = $window.scrollTop();
+        $('.header_area').toggleClass('sticky slideInDown', scrollTop > 48);
+        var activeId = 'home';
+        $('#nav a[href^="#"]').each(function () {
+            var section = document.querySelector(this.getAttribute('href'));
+            if (section && section.getBoundingClientRect().top <= 100) activeId = section.id;
+        });
+        $('#nav .nav-item').removeClass('active');
+        $('#nav a').removeAttr('aria-current');
+        $('#nav a[href="#' + activeId + '"]').attr('aria-current', 'location').parent().addClass('active');
+    }
+    $window.on('scroll load resize', updateNavigation);
+    updateNavigation();
 
     // :: 9.0 Preloader Active code
     $window.on('load', function () {

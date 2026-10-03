@@ -1,737 +1,1748 @@
 [
    {
-      "categories":["category3"],
-      "imageUrl":"img/projects/Ned-VR-Tour.JPG",
-      "altText":"NED VR Tour Project Screenshot",
-      "title":"NED VR Tour",
-      "description":"A Virtual Tour Of a famous university in karachi showing full university in a virtual environment.",
-      "links":[
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/thumbnails/heat-pump-planar-v1.jpg",
+      "altText": "Heat Pump PlanAR — Fraunhofer ISE — landscape project thumbnail",
+      "title": "Heat Pump PlanAR — Fraunhofer ISE",
+      "description": "An iPad-based spatial planning system for heat-pump installations. It combines 3D room scanning, augmented-reality planning, automated pipe routing, and exportable material and installation estimates.",
+      "links": [
          {
-            "url":"https://www.youtube.com/watch?v=V_sFQBu5t5Y",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category3"],
-      "imageUrl":"img/projects/VrCricket.png",
-      "altText":"VR Cricket Gamification Project Screenshot",
-      "title":"VR Cricket Gamification",
-      "description":"VR Cricket Challenge: Bat, score boundaries, answer trivia. Test your cricket skills and knowledge, climb the global leaderboard!",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=NJXZxGnHxNc",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category3","category6"],
-      "imageUrl":"img/projects/VRMedicalSimulation.PNG",
-      "altText":"Medical Simulation VR Project Screenshot",
-      "title":"Medical Simulation VR",
-      "description":"A Virtual Reality based medical simulations for doctors to train in a virtual environment.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=jRdBzfQTtso",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category3","category6"],
-      "imageUrl":"img/projects/VR-Metaltronica.png",
-      "altText":"VR Breast Cancer Detection Hardware Simulation Project Screenshot",
-      "title":"VR Breast Cancer Detection Hardware Simulation",
-      "description":"Breast cancer detection hardware simulation trains users on device features and operation for effective medical equipment usage.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=Jbgf339j330",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category3","category6"],
-      "imageUrl":"img/projects/VR-CardioCare.png",
-      "altText":"Cardio Medical Simulation VR Project Screenshot",
-      "title":"Cardio Medical Simulation VR",
-      "description":"A Cardio training that focuses on vital sign assessment & examinations and ECGs, enhancing skills and improving patient care.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=Yf1zNFwCziw",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category3"],
-      "imageUrl":"img/projects/Virtual-360-House-Tour.jpeg",
-      "altText":"Virtual 360 House Tour Project Screenshot",
-      "title":"Virtual 360 House Tour",
-      "description":"Showing virtual home through mobile phone in VR",
-      "links":[
-         {
-            "url":"https://www.youtube.com/shorts/C0eCaFOmv4k",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category3"],
-      "imageUrl":"img/projects/VR-MultiPlayer.png",
-      "altText":"Multiplayer VR Project Screenshot",
-      "title":"Multiplayer VR",
-      "description":"Showing 2 virtual environments in which players can connect and talk to each other with the help of voice chat.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=3QdvxGsD0Jc",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category3"],
-      "imageUrl":"img/projects/Virtual-Reality-Raytracing-Technology.jpeg",
-      "altText":"Virtual Reality Raytracing Technology Project Screenshot",
-      "title":"Virtual Reality Raytracing Technology",
-      "description":"Showing new car launch progton saga in VR using new unity raytracing technology.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=qBOzR4FNlGU",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category2"],
-      "imageUrl":"img/projects/Scenic_AR_VTuber.webp",
-      "altText":"Scenic: AR VTuber Project Screenshot",
-      "title":"Scenic: AR VTuber Performance",
-      "description":"Implemented Optimized VRM model uploading pipeline & App crash issues due to RAM and CPU utilization",
-      "links":[
-         {
-            "url":"https://apps.apple.com/us/app/scenic-ar-vtuber-performances/id1621779808",
-            "text":"iOS",
-            "icon":"fab fa-apple"
-         }
-      ]
-   },
-   {
-      "categories":["category2"],
-      "imageUrl":"img/projects/AR-FURNITURE-PLACING-APP.JPG",
-      "altText":"Furniture Placing App Project Screenshot",
-      "title":"Furniture Placing App",
-      "description":"A furniture placing app demo showcasing ar technology through which users can place furniture in their home in real time",
-      "links":[
-         {
-            "url":"https://www.youtube.com/shorts/m7-2T6bA9Qw",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category2"],
-      "imageUrl":"img/projects/ARFilter.png",
-      "altText":"AR Face Filters Project Screenshot",
-      "title":"AR Face Filters",
-      "description":"A facefilter app to used to show different filters on face as well as other objects like glasses, caps etc.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=um7TAFMeoKc",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-      {
-      "categories":["category2"],
-      "imageUrl":"img/projects/ARCityBuilder.png",
-      "altText":"AR City Builder Project Screenshot",
-      "title":"AR City Builder",
-      "description":"An AR City Builder APP that uses image detection aswell as floor detection.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=Q7SPyMvr-ow",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category2"],
-      "imageUrl":"img/projects/TikTok-Logo.png",
-      "altText":"TikTok Game Filter Project Screenshot",
-      "title":"TikTok Game Filter",
-      "description":"A TikTok game filter",
-      "links":[
-         {
-            "url":"https://www.tiktok.com/effect/The-Zoo-Filter--Emmy-Meli-3289349550",
-            "text":"Visit",
-            "icon":"fas fa-external-link-alt"
-         }
-      ]
-   },
-   {
-      "categories":["category2"],
-      "imageUrl":"img/projects/AR-Portal-Effect.jpeg",
-      "altText":"AR Portal Effect Project Screenshot",
-      "title":"AR Portal Effect",
-      "description":"Showing A Augmented Environment In Real World Make User Go In Another Dimension.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/shorts/Vk1twVier1I",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category2","category7"],
-      "imageUrl":"img/projects/DiampaLT_WebAR.png",
-      "altText":"WEB-AR Engagement Project Screenshot",
-      "title":"WEB-AR Engagement",
-      "description":"Showing A Web based Augmented Reality engagement for sales representative to show medicines effects.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=BX0pUZLXihY&ab_channel=SyedHuzaifaAli",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category2","category7"],
-      "imageUrl":"img/projects/WebAR-Serc.png",
-      "altText":"WEB-AR Medicine Promotion Project Screenshot",
-      "title":"WEB-AR Medicine Promotion",
-      "description":"Showing A Web based Augmented Reality engagement for sales and promotional purposes.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=51amLGaG4_4&ab_channel=SyedHuzaifaAli",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category2","category7"],
-      "imageUrl":"img/projects/WebARSpaceship.png",
-      "altText":"Web-AR Spaceship Project Screenshot",
-      "title":"Web-AR Spaceship",
-      "description":"This project brings a wormhole and spaceship animation to life when scanning a shirt creating an immersive WebAR experience.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=M_xdLI0-_qY",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.ise.fraunhofer.de/de/presse-und-medien/presseinformationen/2026/fraunhofer-ise-entwickelt-softwaretool-fuer-beschleunigten-waermepumpeneinbau.html",
+            "text": "Official Release",
+            "icon": "fas fa-building"
          },
          {
-            "url":"https://www.instagram.com/reels/DJwqFxHKusI/",
-            "text":"Visit",
-            "icon":"fas fa-external-link-alt"
+            "url": "https://www.youtube.com/watch?v=PJv4sPY7rmw",
+            "text": "Watch Demo",
+            "icon": "fab fa-youtube"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "thumbnailPosition": "50% 50%",
+      "imageSource": "https://www.ise.fraunhofer.de/de/presse-und-medien/presseinformationen/2026/fraunhofer-ise-entwickelt-softwaretool-fuer-beschleunigten-waermepumpeneinbau.html",
+      "originalImageUrl": "img/projects/Heat-Pump-PlanAR-App-Fraunhofer-ISE.jpg",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Unity editor tools",
+            "Custom Unity tools",
+            "PHP",
+            "Custom APIs",
+            "ARKit",
+            "LiDAR",
+            "Spatial anchors",
+            "GLB import/export",
+            "TestFlight / MDM"
+         ],
+         "workDone": [
+            "Created custom Unity and editor tools for spatial planning.",
+            "Built PHP–Unity APIs, persistent spatial mapping and the 3D data pipeline.",
+            "Integrated model import/export and heat-pump pipe-routing workflows."
+         ],
+         "outcome": "Released an iPad spatial-planning application that combines room scanning, heat-pump layout planning, pipe routing and exportable installation estimates."
+      },
+      "id": "heat-pump-planar-fraunhofer-ise"
    },
    {
-      "categories":["category2"],
-      "imageUrl":"img/projects/ARDemoAd.JPG",
-      "altText":"AR Pepsi Advertisement Demo Project Screenshot",
-      "title":"AR Pepsi Advertisement Demo",
-      "description":"A demo of pepsi utilizing pepsi bottle to display their studio songs and star ads and new launched diet drink.",
-      "links":[
+      "categories": [
+         "category3",
+         "category6"
+      ],
+      "imageUrl": "img/projects/VRMedicalSimulation.PNG",
+      "altText": "Medical Simulation VR Project Screenshot",
+      "title": "Medical simulation in VR",
+      "description": "A Virtual Reality based medical simulations for doctors to train in a virtual environment.",
+      "links": [
          {
-            "url":"https://www.youtube.com/shorts/kGfBF2OLqS0",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.youtube.com/watch?v=jRdBzfQTtso",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Built interactive medical-training scenarios in a virtual environment."
+         ],
+         "outcome": "A VR environment where doctors can rehearse clinical scenarios."
+      },
+      "id": "medical-simulation-in-vr"
    },
    {
-      "categories":["category2"],
-      "imageUrl":"img/projects/AR-BIOLOGY-DEMO.JPG",
-      "altText":"AR Biology Human Anatomy Demo Project Screenshot",
-      "title":"AR Biology Human Anatomy Demo",
-      "description":"An app to that shows human anatomy which will be displayed on an image can be used to teach students interested in biology and medical students.",
-      "links":[
+      "categories": [
+         "category3",
+         "category6"
+      ],
+      "imageUrl": "img/projects/thumbnails/cardio-medical-vr-v1.jpg",
+      "altText": "Cardio medical simulation in VR — landscape project thumbnail",
+      "title": "Cardio medical simulation in VR",
+      "description": "A Cardio training that focuses on vital sign assessment & examinations and ECGs, enhancing skills and improving patient care.",
+      "links": [
          {
-            "url":"https://www.youtube.com/watch?v=SbNyyRL0CSQ",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.youtube.com/watch?v=Yf1zNFwCziw",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/VR-CardioCare.png",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Implemented vital-sign assessment, examinations and ECG training in VR."
+         ],
+         "outcome": "A VR training experience covering vital signs, examinations and ECG assessment."
+      },
+      "id": "cardio-medical-simulation-in-vr"
    },
    {
-      "categories":["category2"],
-      "imageUrl":"img/projects/IWSuprise.JPG",
-      "altText":"AR Product Display Project Screenshot",
-      "title":"AR Product Display",
-      "description":"An app to that shows product which will be displayed on an image can be used to show product features and description.",
-      "links":[
+      "categories": [
+         "category6"
+      ],
+      "imageUrl": "img/projects/C-Section.png",
+      "altText": "C-Section Simulation Project Screenshot",
+      "title": "C-section simulation",
+      "description": "A simulation based on performing C-Section operation for medical training",
+      "links": [
          {
-            "url":"https://www.youtube.com/shorts/aRdsBEnVu44",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.youtube.com/watch?v=4pqqz1uI-Lc",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Built a C-section procedure simulation for medical training."
+         ],
+         "outcome": "A simulated setting for practicing a C-section procedure."
+      },
+      "id": "c-section-simulation"
    },
    {
-      "categories":["category2"],
-      "imageUrl":"img/projects/AR_Blueprint_App.jpg",
-      "altText":"AR BluePrint App Project Screenshot",
-      "title":"AR BluePrint App",
-      "description":"A blueprint visualizer for buildings rooms best for construction companies",
-      "links":[
+      "categories": [
+         "category3",
+         "category6"
+      ],
+      "imageUrl": "img/projects/VR-Metaltronica.png",
+      "altText": "VR Breast Cancer Detection Hardware Simulation Project Screenshot",
+      "title": "VR breast cancer detection hardware simulation",
+      "description": "Breast cancer detection hardware simulation trains users on device features and operation for effective medical equipment usage.",
+      "links": [
          {
-            "url":"https://www.youtube.com/watch?v=QK8u_Rh14Vo",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.youtube.com/watch?v=Jbgf339j330",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Simulated the features and operation of breast-cancer detection hardware."
+         ],
+         "outcome": "An interactive way to learn the device’s features and operating workflow."
+      },
+      "id": "vr-breast-cancer-detection-hardware-simulation"
    },
    {
-      "categories":["category2"],
-      "imageUrl":"img/projects/AR-CAR-ENGINE-APP.JPG",
-      "altText":"AR Car Engine App Project Screenshot",
-      "title":"AR Car Engine App",
-      "description":"Showing car engine and how it works with animation and all parts of engine engaging students in learning and helping in better understanding.",
-      "links":[
+      "categories": [
+         "category6"
+      ],
+      "imageUrl": "img/projects/Mdeical.png",
+      "altText": "Medical Simulation Project Screenshot",
+      "title": "Medical simulation",
+      "description": "A simulation based on a specific patient for medical training",
+      "links": [
          {
-            "url":"https://www.youtube.com/watch?v=m6AP-hrrpeg",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.youtube.com/watch?v=mHBVJRXK9ts",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Created a patient-specific scenario for medical training."
+         ],
+         "outcome": "A reusable patient scenario for clinical training."
+      },
+      "id": "medical-simulation"
    },
    {
-      "categories":["category2"],
-      "imageUrl":"img/projects/ARPortalHouse3551.JPG",
-      "altText":"AR Construction House Portal Project Screenshot",
-      "title":"AR Construction House Portal",
-      "description":"Immersing users in a house that is overlaid on top of our real world environment people can view the complete house and how it looks like.",
-      "links":[
+      "categories": [
+         "category7",
+         "category6"
+      ],
+      "imageUrl": "img/projects/thumbnails/medical-webvr-v1.jpg",
+      "altText": "Medical simulation in WebVR — landscape project thumbnail",
+      "title": "Medical simulation in WebVR",
+      "description": "A WebVR based medical simulation",
+      "links": [
          {
-            "url":"https://www.youtube.com/watch?v=gtbhHUm1k2M",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.youtube.com/watch?v=iQKeVHxM_-0",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/Web-VR.PNG",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs",
+            "WebGL"
+         ],
+         "workDone": [
+            "Delivered a medical-training simulation through a WebVR browser experience."
+         ],
+         "outcome": "Medical simulation available in a browser without a native app installation."
+      },
+      "id": "medical-simulation-in-webvr"
    },
    {
-      "categories":["category2"],
-      "imageUrl":"img/projects/IndoorNAvigation.JPG",
-      "altText":"AR Indoor Navigation Project Screenshot",
-      "title":"AR Indoor Navigation",
-      "description":"Indoor navigation helping people guiding them which route to take inside a mall, hospital, university or a office taking them where their destinations is without asking or looking for people who can help them get to their desired place.",
-      "links":[
+      "categories": [
+         "category8"
+      ],
+      "imageUrl": "img/projects/thumbnails/pokemon-generator.svg",
+      "altText": "Pokémon synthetic-data generator — illustrated workflow",
+      "title": "Pokémon synthetic-data generator",
+      "description": "Unity pipeline generating labeled Pokémon images with randomized scenes, lighting and camera angles. Exports YOLO labels and reproducible capture metadata.",
+      "links": [
          {
-            "url":"https://www.youtube.com/shorts/feuoc7Va5AY",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://github.com/syedhuzaifaali660/SyntheticDataProject/tree/main/Unity-SyntheticDataGenrator",
+            "text": "View Code",
+            "icon": "fab fa-github"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailType": "workflow illustration",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Custom Unity editor tools",
+            "Domain randomization",
+            "YOLO annotations",
+            "JSON Lines"
+         ],
+         "workDone": [
+            "Built deterministic editor and batch-mode capture workflows.",
+            "Randomized backgrounds, cameras, lighting and object placement; validated bounding boxes and occlusion.",
+            "Exported rendered images, YOLO labels and capture metadata."
+         ],
+         "outcome": "A reproducible synthetic dataset pipeline for Pikachu, Charmander and Squirtle object detection."
+      },
+      "id": "pokemon-synthetic-data-generator"
    },
    {
-      "categories":["category1"],
-      "imageUrl":"img/projects/HouseShowcaseApp.JPG",
-      "altText":"Architecture Showcase Project Screenshot",
-      "title":"Architecture Showcase",
-      "description":"Look into the architecture of a building and view all its floors inside and the final look of the design within the app.",
-      "links":[
+      "categories": [
+         "category8"
+      ],
+      "imageUrl": "img/projects/thumbnails/pokemon-yolo-opencv.svg",
+      "altText": "Pokémon detector — YOLO & OpenCV — illustrated workflow",
+      "title": "Pokémon detector — YOLO & OpenCV",
+      "description": "Python pipeline for dataset validation, YOLO training and evaluation, plus live webcam detection using OpenCV with bounding boxes, confidence scores and FPS.",
+      "links": [
          {
-            "url":"https://www.youtube.com/watch?v=oHRFmBdbjiU",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://github.com/syedhuzaifaali660/SyntheticDataProject/tree/main/Python-ModelTraining",
+            "text": "View Code",
+            "icon": "fab fa-github"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailType": "workflow illustration",
+      "details": {
+         "technologies": [
+            "Python",
+            "Ultralytics YOLO",
+            "PyTorch",
+            "OpenCV",
+            "NumPy",
+            "uv"
+         ],
+         "workDone": [
+            "Validated generated captures and reviewed annotations.",
+            "Created background-grouped dataset splits and trained and evaluated YOLO models.",
+            "Built live webcam inference with OpenCV camera capture and detection overlays."
+         ],
+         "outcome": "An evaluated Pokémon detector and a real-time webcam inference workflow; recorded evaluation results are on synthetic test images."
+      },
+      "id": "pokemon-detector-yolo-opencv"
    },
    {
-      "categories":["category1"],
-      "imageUrl":"img/projects/Youtube_Api_Call.png",
-      "altText":"Youtube Api Calling Project Screenshot",
-      "title":"Youtube Api Calling",
-      "description":"Youtube api calling with unity's new ui tool kit getting data with api and displaying it my app with pagination.",
-      "links":[
+      "categories": [
+         "category8"
+      ],
+      "imageUrl": "img/projects/thumbnails/pokemon-coreml-ios.svg",
+      "altText": "Pokémon detector for iPhone — illustrated workflow",
+      "title": "Pokémon detector for iPhone",
+      "description": "Native Swift app running Core ML Pokémon detection through the iPhone camera, with bounding boxes, confidence scores, model selection and an inference FPS overlay.",
+      "links": [
          {
-            "url":"https://www.youtube.com/watch?v=cR86qFPuFog",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://github.com/syedhuzaifaali660/SyntheticDataProject/tree/main/Xcode-PokemonDetector",
+            "text": "View Code",
+            "icon": "fab fa-github"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailType": "workflow illustration",
+      "details": {
+         "technologies": [
+            "Swift",
+            "SwiftUI",
+            "Core ML",
+            "AVFoundation",
+            "Core Image",
+            "Core Video"
+         ],
+         "workDone": [
+            "Integrated camera capture with on-device Core ML inference.",
+            "Rendered detection boxes, confidence labels and inference FPS over the camera preview.",
+            "Added model switching and camera zoom controls."
+         ],
+         "outcome": "A native iPhone camera app with two bundled Core ML models and on-device detection; not presented as an App Store release."
+      },
+      "id": "pokemon-detector-for-iphone"
    },
    {
-      "categories":["category1"],
-      "imageUrl":"img/projects/Bird_Hunting_Shooting.webp",
-      "altText":"Bird Hunting Shooting Game Project Screenshot",
-      "title":"Bird Hunting Shooting Game",
-      "description":"Experience the real fun of shooting birds without harming anyone! This bird hunting game allows you to be your true bird hunter self in wild animal jungle adventure action game. Featuring 3D graphics, picturesque locations, real time different birds animation and lifelike birds noises, this bird hunter game is all about offering you a realistic bird hunting experience.",
-      "links":[
+      "categories": [
+         "category3"
+      ],
+      "imageUrl": "img/projects/Ned-VR-Tour.JPG",
+      "altText": "NED VR Tour Project Screenshot",
+      "title": "NED VR tour",
+      "description": "A Virtual Tour Of a famous university in karachi showing full university in a virtual environment.",
+      "links": [
          {
-            "url":"https://play.google.com/store/apps/details?id=com.gamesworld.bird.shooting.game",
-            "text":"Android",
-            "icon":"fab fa-android"
+            "url": "https://www.youtube.com/watch?v=V_sFQBu5t5Y",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Recreated university spaces as an explorable VR campus tour."
+         ],
+         "outcome": "Visitors can explore university spaces remotely in VR."
+      },
+      "id": "ned-vr-tour"
    },
    {
-      "categories":["category1","category7"],
-      "imageUrl":"img/projects/RealDeal.jpg",
-      "altText":"Real Deal Thrift Hunter Project Screenshot",
-      "title":"Real Deal Thrift Hunter",
-      "description":"Put your thrift-hunting skills to the test! In Real Deal: Thrift Hunter, you'll be shown real items fetched from eBay and Poshmark, and your challenge is to guess their prices. Guess correctly and earn rewards! Use Power-Ups to freeze time, get hints, or summon Genee for help.",
-      "links":[
+      "categories": [
+         "category3"
+      ],
+      "imageUrl": "img/projects/VrCricket.png",
+      "altText": "VR Cricket Gamification Project Screenshot",
+      "title": "VR cricket gamification",
+      "description": "VR Cricket Challenge: Bat, score boundaries, answer trivia. Test your cricket skills and knowledge, climb the global leaderboard!",
+      "links": [
          {
-            "url":"https://apps.apple.com/cn/app/real-deal-thrift-hunter/id6744292862",
-            "text":"iOS",
-            "icon":"fab fa-apple"
+            "url": "https://www.youtube.com/watch?v=NJXZxGnHxNc",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Combined VR cricket gameplay, trivia and a global leaderboard.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "A cricket challenge that combines batting, knowledge checks and leaderboard competition."
+      },
+      "id": "vr-cricket-gamification"
+   },
+   {
+      "categories": [
+         "category3"
+      ],
+      "imageUrl": "img/projects/Virtual-360-House-Tour.jpeg",
+      "altText": "Virtual 360 House Tour Project Screenshot",
+      "title": "Virtual 360 house tour",
+      "description": "Showing virtual home through mobile phone in VR",
+      "links": [
+         {
+            "url": "https://www.youtube.com/shorts/C0eCaFOmv4k",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Created a mobile VR walkthrough of a home using 360-degree views."
+         ],
+         "outcome": "A home can be explored remotely through a mobile VR walkthrough."
+      },
+      "id": "virtual-360-house-tour"
+   },
+   {
+      "categories": [
+         "category3"
+      ],
+      "imageUrl": "img/projects/thumbnails/multiplayer-vr-v1.jpg",
+      "altText": "Multiplayer VR — landscape project thumbnail",
+      "title": "Multiplayer VR",
+      "description": "Showing 2 virtual environments in which players can connect and talk to each other with the help of voice chat.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=3QdvxGsD0Jc",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/VR-MultiPlayer.png",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Connected players across two virtual environments with voice chat."
+         ],
+         "outcome": "Players can meet and communicate across connected virtual spaces."
+      },
+      "id": "multiplayer-vr"
+   },
+   {
+      "categories": [
+         "category3"
+      ],
+      "imageUrl": "img/projects/Virtual-Reality-Raytracing-Technology.jpeg",
+      "altText": "Virtual Reality Raytracing Technology Project Screenshot",
+      "title": "Virtual reality ray tracing technology",
+      "description": "Showing new car launch progton saga in VR using new unity raytracing technology.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=qBOzR4FNlGU",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Built a VR automotive showcase using Unity ray-tracing workflows."
+         ],
+         "outcome": "A high-fidelity virtual presentation of an automotive launch."
+      },
+      "id": "virtual-reality-ray-tracing-technology"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/Scenic_AR_VTuber.webp",
+      "altText": "Scenic: AR VTuber Project Screenshot",
+      "title": "Scenic: AR VTuber performance",
+      "description": "Implemented Optimized VRM model uploading pipeline & App crash issues due to RAM and CPU utilization",
+      "links": [
+         {
+            "url": "https://apps.apple.com/us/app/scenic-ar-vtuber-performances/id1621779808",
+            "text": "iOS",
+            "icon": "fab fa-apple"
+         }
+      ],
+      "thumbnailFit": "contain",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "ARKit",
+            "iOS",
+            "UniVRM / VRM avatars",
+            "Normcore Realtime",
+            "Firebase",
+            "Agora"
+         ],
+         "workDone": [
+            "Integrated ARKit body tracking and VRM avatar animation.",
+            "Optimized the avatar-upload pipeline to address memory pressure and crashes."
+         ],
+         "outcome": "An iOS avatar performance experience with an improved upload pipeline and lower memory pressure."
+      },
+      "id": "scenic-ar-vtuber-performance"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/AR-FURNITURE-PLACING-APP.JPG",
+      "altText": "Furniture Placing App Project Screenshot",
+      "title": "Furniture placing app",
+      "description": "A furniture placing app demo showcasing ar technology through which users can place furniture in their home in real time",
+      "links": [
+         {
+            "url": "https://www.youtube.com/shorts/m7-2T6bA9Qw",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Built real-time AR furniture placement inside a user’s home."
+         ],
+         "outcome": "Users can preview furniture in their own rooms before choosing a placement."
+      },
+      "id": "furniture-placing-app"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/thumbnails/ar-face-filters-v1.jpg",
+      "altText": "AR face filters — landscape project thumbnail",
+      "title": "AR face filters",
+      "description": "A facefilter app to used to show different filters on face as well as other objects like glasses, caps etc.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=um7TAFMeoKc",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/ARFilter.png",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Implemented face effects and virtual accessory overlays."
+         ],
+         "outcome": "Real-time face effects and virtual accessories presented on mobile."
+      },
+      "id": "ar-face-filters"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/ARCityBuilder.png",
+      "altText": "AR City Builder Project Screenshot",
+      "title": "AR city builder",
+      "description": "An AR City Builder APP that uses image detection aswell as floor detection.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=Q7SPyMvr-ow",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Combined image and floor detection in an AR city-building experience."
+         ],
+         "outcome": "An AR city-building experience anchored to detected images and floors."
+      },
+      "id": "ar-city-builder"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/TikTok-Logo.png",
+      "altText": "TikTok Game Filter Project Screenshot",
+      "title": "TikTok game filter",
+      "description": "A TikTok game filter",
+      "links": [
+         {
+            "url": "https://www.tiktok.com/effect/The-Zoo-Filter--Emmy-Meli-3289349550",
+            "text": "Visit",
+            "icon": "fas fa-external-link-alt"
+         }
+      ],
+      "thumbnailFit": "contain",
+      "details": {
+         "technologies": [
+            "TikTok effect"
+         ],
+         "workDone": [
+            "Created an interactive game filter for TikTok."
+         ],
+         "outcome": "An interactive social game effect distributed through TikTok."
+      },
+      "id": "tiktok-game-filter"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/AR-Portal-Effect.jpeg",
+      "altText": "AR Portal Effect Project Screenshot",
+      "title": "AR portal effect",
+      "description": "Showing A Augmented Environment In Real World Make User Go In Another Dimension.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/shorts/Vk1twVier1I",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Overlaid a virtual environment through an AR portal in the real world."
+         ],
+         "outcome": "Users can view an alternate virtual space within their real surroundings."
+      },
+      "id": "ar-portal-effect"
+   },
+   {
+      "categories": [
+         "category2",
+         "category7"
+      ],
+      "imageUrl": "img/projects/DiampaLT_WebAR.png",
+      "altText": "WEB-AR Engagement Project Screenshot",
+      "title": "WebAR engagement",
+      "description": "Showing A Web based Augmented Reality engagement for sales representative to show medicines effects.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=BX0pUZLXihY&ab_channel=SyedHuzaifaAli",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs",
+            "WebGL"
+         ],
+         "workDone": [
+            "Built a browser-based AR experience for explaining medicine effects."
+         ],
+         "outcome": "A web-based product demonstration for field sales conversations."
+      },
+      "id": "webar-engagement"
+   },
+   {
+      "categories": [
+         "category2",
+         "category7"
+      ],
+      "imageUrl": "img/projects/thumbnails/webar-medicine-v1.jpg",
+      "altText": "WebAR medicine promotion — landscape project thumbnail",
+      "title": "WebAR medicine promotion",
+      "description": "Showing A Web based Augmented Reality engagement for sales and promotional purposes.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=51amLGaG4_4&ab_channel=SyedHuzaifaAli",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/WebAR-Serc.png",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs",
+            "WebGL"
+         ],
+         "workDone": [
+            "Created a browser-based AR medicine promotion experience."
+         ],
+         "outcome": "An interactive WebAR format for medicine promotion and product storytelling."
+      },
+      "id": "webar-medicine-promotion"
+   },
+   {
+      "categories": [
+         "category2",
+         "category7"
+      ],
+      "imageUrl": "img/projects/thumbnails/webar-spaceship-v1.jpg",
+      "altText": "WebAR spaceship — landscape project thumbnail",
+      "title": "WebAR spaceship",
+      "description": "This project brings a wormhole and spaceship animation to life when scanning a shirt creating an immersive WebAR experience.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=M_xdLI0-_qY",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          },
          {
-            "url":"https://play.google.com/store/apps/details?id=com.sellercave.realdealthrifthunter&hl=en",
-            "text":"Android",
-            "icon":"fab fa-android"
+            "url": "https://www.instagram.com/reels/DJwqFxHKusI/",
+            "text": "Visit",
+            "icon": "fas fa-external-link-alt"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/WebARSpaceship.png",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs",
+            "WebGL"
+         ],
+         "workDone": [
+            "Triggered wormhole and spaceship animation from a scanned physical design."
+         ],
+         "outcome": "A scanned physical design reveals an animated space scene in WebAR."
+      },
+      "id": "webar-spaceship"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/thumbnails/ar-pepsi-v1.jpg",
+      "altText": "AR Pepsi advertisement demo — landscape project thumbnail",
+      "title": "AR Pepsi advertisement demo",
+      "description": "A demo of pepsi utilizing pepsi bottle to display their studio songs and star ads and new launched diet drink.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/shorts/kGfBF2OLqS0",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/ARDemoAd.JPG",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Used product packaging to anchor Pepsi multimedia and advertisement content in AR."
+         ],
+         "outcome": "A product bottle becomes an entry point to branded AR media."
+      },
+      "id": "ar-pepsi-advertisement-demo"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/AR-BIOLOGY-DEMO.JPG",
+      "altText": "AR Biology Human Anatomy Demo Project Screenshot",
+      "title": "AR biology human anatomy demo",
+      "description": "An app to that shows human anatomy which will be displayed on an image can be used to teach students interested in biology and medical students.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=SbNyyRL0CSQ",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Displayed interactive 3D human anatomy using an image-based AR experience."
+         ],
+         "outcome": "Students can examine anatomy through an interactive AR presentation."
+      },
+      "id": "ar-biology-human-anatomy-demo"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/thumbnails/ar-product-display-v1.jpg",
+      "altText": "AR product display — landscape project thumbnail",
+      "title": "AR product display",
+      "description": "An app to that shows product which will be displayed on an image can be used to show product features and description.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/shorts/aRdsBEnVu44",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/IWSuprise.JPG",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Used image detection to display an augmented product experience."
+         ],
+         "outcome": "A physical image triggers an augmented product presentation."
+      },
+      "id": "ar-product-display"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/AR_Blueprint_App.jpg",
+      "altText": "AR BluePrint App Project Screenshot",
+      "title": "AR blueprint app",
+      "description": "A blueprint visualizer for buildings rooms best for construction companies",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=QK8u_Rh14Vo",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Visualized building blueprints and room layouts in AR."
+         ],
+         "outcome": "Building plans can be inspected as spatial layouts."
+      },
+      "id": "ar-blueprint-app"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/AR-CAR-ENGINE-APP.JPG",
+      "altText": "AR Car Engine App Project Screenshot",
+      "title": "AR car engine app",
+      "description": "Showing car engine and how it works with animation and all parts of engine engaging students in learning and helping in better understanding.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=m6AP-hrrpeg",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Animated engine components to explain how a car engine works."
+         ],
+         "outcome": "Engine behavior is explained through animated parts and components."
+      },
+      "id": "ar-car-engine-app"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/thumbnails/ar-house-portal-v1.jpg",
+      "altText": "AR construction house portal — landscape project thumbnail",
+      "title": "AR construction house portal",
+      "description": "Immersing users in a house that is overlaid on top of our real world environment people can view the complete house and how it looks like.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=gtbhHUm1k2M",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/ARPortalHouse3551.JPG",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Created an AR house portal for previewing a virtual interior in a real space."
+         ],
+         "outcome": "A virtual house interior can be previewed through an AR doorway."
+      },
+      "id": "ar-construction-house-portal"
+   },
+   {
+      "categories": [
+         "category2"
+      ],
+      "imageUrl": "img/projects/thumbnails/ar-indoor-navigation-v1.jpg",
+      "altText": "AR indoor navigation — landscape project thumbnail",
+      "title": "AR indoor navigation",
+      "description": "Indoor navigation helping people guiding them which route to take inside a mall, hospital, university or a office taking them where their destinations is without asking or looking for people who can help them get to their desired place.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/shorts/feuoc7Va5AY",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/IndoorNAvigation.JPG",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs"
+         ],
+         "workDone": [
+            "Built an indoor AR wayfinding experience for navigating complex venues."
+         ],
+         "outcome": "An indoor wayfinding experience intended to guide visitors through complex buildings."
+      },
+      "id": "ar-indoor-navigation"
+   },
+   {
+      "categories": [
+         "category9"
+      ],
+      "imageUrl": "img/projects/thumbnails/architecture-showcase-v1.jpg",
+      "altText": "Architecture showcase — landscape project thumbnail",
+      "title": "Architecture showcase",
+      "description": "Look into the architecture of a building and view all its floors inside and the final look of the design within the app.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=oHRFmBdbjiU",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/HouseShowcaseApp.JPG",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#"
+         ],
+         "workDone": [
+            "Built interactive building and floor visualization."
+         ],
+         "outcome": "Building floors and the final architectural design can be inspected interactively."
+      },
+      "id": "architecture-showcase"
+   },
+   {
+      "categories": [
+         "category9"
+      ],
+      "imageUrl": "img/projects/thumbnails/youtube-api-v1.jpg",
+      "altText": "YouTube API integration — landscape project thumbnail",
+      "title": "YouTube API integration",
+      "description": "Youtube api calling with unity's new ui tool kit getting data with api and displaying it my app with pagination.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=cR86qFPuFog",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/Youtube_Api_Call.png",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "YouTube API",
+            "UI Toolkit"
+         ],
+         "workDone": [
+            "Integrated the YouTube API with a custom Unity UI Toolkit interface and pagination."
+         ],
+         "outcome": "YouTube content is displayed inside Unity with a paginated custom interface."
+      },
+      "id": "youtube-api-integration"
+   },
+   {
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/Bird_Hunting_Shooting.webp",
+      "altText": "Bird Hunting Shooting Game Project Screenshot",
+      "title": "Bird hunting shooting game",
+      "description": "Experience the real fun of shooting birds without harming anyone! This bird hunting game allows you to be your true bird hunter self in wild animal jungle adventure action game. Featuring 3D graphics, picturesque locations, real time different birds animation and lifelike birds noises, this bird hunter game is all about offering you a realistic bird hunting experience.",
+      "links": [
+         {
+            "url": "https://play.google.com/store/apps/details?id=com.gamesworld.bird.shooting.game",
+            "text": "Android",
+            "icon": "fab fa-android"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Android",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Developed a 3D bird-hunting gameplay experience for mobile.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "A mobile bird-hunting game released on Android."
+      },
+      "id": "bird-hunting-shooting-game"
+   },
+   {
+      "categories": [
+         "category1",
+         "category7"
+      ],
+      "imageUrl": "img/projects/RealDeal.jpg",
+      "altText": "Real Deal Thrift Hunter Project Screenshot",
+      "title": "Real Deal: Thrift Hunter",
+      "description": "Put your thrift-hunting skills to the test! In Real Deal: Thrift Hunter, you'll be shown real items fetched from eBay and Poshmark, and your challenge is to guess their prices. Guess correctly and earn rewards! Use Power-Ups to freeze time, get hints, or summon Genee for help.",
+      "links": [
+         {
+            "url": "https://apps.apple.com/cn/app/real-deal-thrift-hunter/id6744292862",
+            "text": "iOS",
+            "icon": "fab fa-apple"
          },
          {
-            "url":"https://games.sellercave.com/",
-            "text":"Visit",
-            "icon":"fas fa-external-link-alt"
-         }
-      ]
-   },
-   {
-      "categories":["category1"],
-      "imageUrl":"img/projects/SKU.png",
-      "altText":"Kids Learning APP Project Screenshot",
-      "title":"Kids Learning APP",
-      "description":"Kids learning app focusing on different subjects like math's science etc.. Math subject has different worlds which are based on geographical location of contents and each continent has different lesson related to the subject.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=q1bfS9Td-20",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category1"],
-      "imageUrl":"img/projects/Wild_Dino_Hunting_Game.webp",
-      "altText":"Wild Dinosaur Hunting Island Project Screenshot",
-      "title":"Wild Dinosaur Hunting Island",
-      "description":"Welcome to the real Dino Hunting Shooting. Enjoy real animal hunting game in jungle survival with all the new shooting games exciting levels and realistic hunting adventure experience with FPS Shooter sniper.",
-      "links":[
-         {
-            "url":"https://play.google.com/store/apps/details?id=com.ps.animalhunter.jungle.snipershooting&hl=en&gl=US",
-            "text":"Android",
-            "icon":"fab fa-android"
+            "url": "https://play.google.com/store/apps/details?id=com.sellercave.realdealthrifthunter&hl=en",
+            "text": "Android",
+            "icon": "fab fa-android"
          },
          {
-            "url":"https://www.youtube.com/watch?v=kN2pmrtQy4w",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://games.sellercave.com/",
+            "text": "Visit",
+            "icon": "fas fa-external-link-alt"
          }
-      ]
+      ],
+      "thumbnailFit": "contain",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "PHP",
+            "MySQL",
+            "Custom APIs",
+            "Firebase",
+            "WebGL",
+            "iOS",
+            "Android"
+         ],
+         "workDone": [
+            "Created custom PHP APIs with a MySQL database.",
+            "Connected marketplace data and Firebase to the Unity game.",
+            "Implemented price guessing, rewards and power-ups across mobile and web."
+         ],
+         "outcome": "Delivered a price-guessing game across iOS, Android and web, using real marketplace items, rewards and power-ups."
+      },
+      "id": "real-deal-thrift-hunter"
    },
    {
-      "categories":["category1"],
-      "imageUrl":"img/projects/AstroAdventure2.png",
-      "altText":"ASTRO ADVENTURES Project Screenshot",
-      "title":"ASTRO ADVENTURES",
-      "description":"A fun and engaging platformer game with markets to buy guns and coins to upgrade them.",
-      "links":[
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/SKU.png",
+      "altText": "Kids Learning APP Project Screenshot",
+      "title": "Kids learning app",
+      "description": "Kids learning app focusing on different subjects like math's science etc.. Math subject has different worlds which are based on geographical location of contents and each continent has different lesson related to the subject.",
+      "links": [
          {
-            "url":"https://www.youtube.com/watch?v=UfNtp7p8QPs",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.youtube.com/watch?v=q1bfS9Td-20",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "thumbnailPosition": "65% 50%",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Built subject-based lessons in geography-themed learning worlds.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "An educational game that organizes lessons into themed worlds."
+      },
+      "id": "kids-learning-app"
    },
    {
-      "categories":["category1"],
-      "imageUrl":"img/projects/Hungry_Shark_Hunter.webp",
-      "altText":"Hungry Shark Hunter Project Screenshot",
-      "title":"Hungry Shark Hunter",
-      "description":"Play Exciting Sea Animal Shark Shooting games. Angry shark is roaming around in the ocean waters, looking for someone to attack. You are all alone in ocean water away from the city, what will you do? Become the best sniper in Angry shark hunting games.",
-      "links":[
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/Wild_Dino_Hunting_Game.webp",
+      "altText": "Wild Dinosaur Hunting Island Project Screenshot",
+      "title": "Wild dinosaur hunting island",
+      "description": "Welcome to the real Dino Hunting Shooting. Enjoy real animal hunting game in jungle survival with all the new shooting games exciting levels and realistic hunting adventure experience with FPS Shooter sniper.",
+      "links": [
          {
-            "url":"https://play.google.com/store/apps/details?id=com.gamesworld.shark.hunting.sniper",
-            "text":"Android",
-            "icon":"fab fa-android"
+            "url": "https://play.google.com/store/apps/details?id=com.ps.animalhunter.jungle.snipershooting&hl=en&gl=US",
+            "text": "Android",
+            "icon": "fab fa-android"
          },
          {
-            "url":"https://apps.apple.com/us/app/angry-shark-hunting-game/id1565296708",
-            "text":"iOS",
-            "icon":"fab fa-apple"
+            "url": "https://www.youtube.com/watch?v=kN2pmrtQy4w",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Android",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Developed dinosaur-hunting gameplay with first-person shooting.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "A dinosaur-hunting game available on Android."
+      },
+      "id": "wild-dinosaur-hunting-island"
    },
    {
-      "categories":["category1"],
-      "imageUrl":"img/projects/Angry_Dino_Hunting.webp",
-      "altText":"Angry Dino Hunting Project Screenshot",
-      "title":"Angry Dino Hunting",
-      "description":"Let's play fearless modern sniper shooting, go hunting and survive in the world overflowing with the wild dinosaurs and jungle animals",
-      "links":[
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/AstroAdventure2.png",
+      "altText": "ASTRO ADVENTURES Project Screenshot",
+      "title": "Astro Adventures",
+      "description": "A fun and engaging platformer game with markets to buy guns and coins to upgrade them.",
+      "links": [
          {
-            "url":"https://play.google.com/store/apps/details?id=com.ps.angry.dino.hunting.game",
-            "text":"Android",
-            "icon":"fab fa-android"
+            "url": "https://www.youtube.com/watch?v=UfNtp7p8QPs",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Built platformer gameplay, an in-game market and weapon upgrades.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "A platformer with purchasable weapons and an upgrade progression loop."
+      },
+      "id": "astro-adventures"
    },
    {
-      "categories":["category1"],
-      "imageUrl":"img/projects/Wild_Animal_Hunting.webp",
-      "altText":"Real Animal Hunting Quest 3D Project Screenshot",
-      "title":"Real Animal Hunting Quest 3D",
-      "description":"Start Wild animal hunting journey through the dense forest. Animal hunting games invites you to experience exotic animal hunting game experience.",
-      "links":[
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/Hungry_Shark_Hunter.webp",
+      "altText": "Hungry Shark Hunter Project Screenshot",
+      "title": "Hungry shark hunter",
+      "description": "Play Exciting Sea Animal Shark Shooting games. Angry shark is roaming around in the ocean waters, looking for someone to attack. You are all alone in ocean water away from the city, what will you do? Become the best sniper in Angry shark hunting games.",
+      "links": [
          {
-            "url":"https://play.google.com/store/apps/details?id=com.gamesworld.animal.hunting.sniper.shooting",
-            "text":"Android",
-            "icon":"fab fa-android"
+            "url": "https://play.google.com/store/apps/details?id=com.gamesworld.shark.hunting.sniper",
+            "text": "Android",
+            "icon": "fab fa-android"
          },
          {
-            "url":"https://apps.apple.com/us/app/wild-animal-hunting-jungle-3d/id1361536024",
-            "text":"iOS",
-            "icon":"fab fa-apple"
+            "url": "https://apps.apple.com/us/app/angry-shark-hunting-game/id1565296708",
+            "text": "iOS",
+            "icon": "fab fa-apple"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Android",
+            "iOS",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Created a sea-animal shooting game with shark-hunting gameplay.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "A shark-hunting action game available on Android and iOS."
+      },
+      "id": "hungry-shark-hunter"
    },
    {
-      "categories":["category1"],
-      "imageUrl":"img/projects/acromania.png",
-      "altText":"Acromania Multiplayer Game Project Screenshot",
-      "title":"Acromania Multiplayer Game",
-      "description":"Acromania is a fast-paced word game that challenges players to come up with creative acronyms using a set of given letters (iOS/Android)",
-      "links":[
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/Angry_Dino_Hunting.webp",
+      "altText": "Angry Dino Hunting Project Screenshot",
+      "title": "Angry dino hunting",
+      "description": "Let's play fearless modern sniper shooting, go hunting and survive in the world overflowing with the wild dinosaurs and jungle animals",
+      "links": [
          {
-            "url":"https://apps.apple.com/us/app/acromania/id6448218071",
-            "text":"iOS",
-            "icon":"fab fa-apple"
+            "url": "https://play.google.com/store/apps/details?id=com.ps.angry.dino.hunting.game",
+            "text": "Android",
+            "icon": "fab fa-android"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Android",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Developed a hunting and survival game featuring dinosaurs and jungle animals.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "An Android game combining dinosaur hunting with survival gameplay."
+      },
+      "id": "angry-dino-hunting"
+   },
+   {
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/Wild_Animal_Hunting.webp",
+      "altText": "Real Animal Hunting Quest 3D Project Screenshot",
+      "title": "Real animal hunting quest 3D",
+      "description": "Start Wild animal hunting journey through the dense forest. Animal hunting games invites you to experience exotic animal hunting game experience.",
+      "links": [
+         {
+            "url": "https://play.google.com/store/apps/details?id=com.gamesworld.animal.hunting.sniper.shooting",
+            "text": "Android",
+            "icon": "fab fa-android"
          },
          {
-            "url":"https://play.google.com/store/apps/details?id=com.poshsidekick.acromania&hl=en",
-            "text":"Android",
-            "icon":"fab fa-android"
+            "url": "https://apps.apple.com/us/app/wild-animal-hunting-jungle-3d/id1361536024",
+            "text": "iOS",
+            "icon": "fab fa-apple"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Android",
+            "iOS",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Built an animal-hunting experience set in forest environments.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "A forest hunting game available on Android and iOS."
+      },
+      "id": "real-animal-hunting-quest-3d"
+   },
+   {
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/acromania.png",
+      "altText": "Acromania Multiplayer Game Project Screenshot",
+      "title": "Acromania multiplayer game",
+      "description": "Acromania is a fast-paced word game that challenges players to come up with creative acronyms using a set of given letters (iOS/Android)",
+      "links": [
+         {
+            "url": "https://apps.apple.com/us/app/acromania/id6448218071",
+            "text": "iOS",
+            "icon": "fab fa-apple"
          },
          {
-            "url":"https://www.youtube.com/watch?v=-ma7hdsFP_w",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category1","category6"],
-      "imageUrl":"img/projects/GolfGame.png",
-      "altText":"Golf Game Project Screenshot",
-      "title":"Golf Game",
-      "description":"Introducing the innovative Golf Game that integrates cutting-edge spirometry technology to measure the user's respiratory system. To play the game, users are required to provide their personal information, which is then utilized to generate a customized measurement of their lungs.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=KD7Q3qHBFzY",
-            "text":"iOS",
-            "icon":"fab fa-apple"
-         }
-      ]
-   },
-   {
-      "categories":["category1","category6"],
-      "imageUrl":"img/projects/Dolphin.png",
-      "altText":"Dolphin Game Project Screenshot",
-      "title":"Dolphin Game",
-      "description":"The Spirometry-based Gaming Container App merges interactive gaming with spirometry technology to measure lung capacity. With two engaging games, users play while their inhale and exhale values are recorded.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=La5ttq0NzE0",
-            "text":"iOS",
-            "icon":"fab fa-apple"
-         }
-      ]
-   },
-   {
-      "categories":["category4"],
-      "imageUrl":"img/projects/kinect.jpeg",
-      "altText":"KINECT Project Screenshot",
-      "title":"KINECT",
-      "description":"Bubble popping game pop bubbles by copying user hand motion made with kinect using depth sensors and infrared cam.",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=rGbuNE9XAk0",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category6"],
-      "imageUrl":"img/projects/Mdeical.png",
-      "altText":"Medical Simulation Project Screenshot",
-      "title":"Medical Simulation",
-      "description":"A simulation based on a specific patient for medical training",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=mHBVJRXK9ts",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-      {
-      "categories":["category6"],
-      "imageUrl":"img/projects/C-Section.png",
-      "altText":"C-Section Simulation Project Screenshot",
-      "title":"C-Section Simulation",
-      "description":"A simulation based on performing C-Section operation for medical training",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=4pqqz1uI-Lc",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category5"],
-      "imageUrl":"img/projects/GamificationCardGame.JPG",
-      "altText":"Activity Card Game Project Screenshot",
-      "title":"Activity Card Game",
-      "description":"A Game based on a cancer detection showcasing a new way to detect cells with the help of gamification",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=yY0crbJEG0g",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category7"],
-      "imageUrl":"img/projects/MultiplayerGameWebGl.JPG",
-      "altText":"Portfolio Explorer Project Screenshot",
-      "title":"Portfolio Explorer",
-      "description":"A metaverse company portfolio explorer game based on WebGL",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=iDUUyegYpLU",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category7","category6"],
-      "imageUrl":"img/projects/Web-VR.PNG",
-      "altText":"Medical Simulation WebVR Project Screenshot",
-      "title":"Medical Simulation WebVR",
-      "description":"A WebVR based medical simulation",
-      "links":[
-         {
-            "url":"https://www.youtube.com/watch?v=iQKeVHxM_-0",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category7","category5"],
-      "imageUrl":"img/projects/CarGamificationWeb.png",
-      "altText":"Car Racing Gamification Project Screenshot",
-      "title":"Car Racing Gamification",
-      "description":"A web based car racing gamification which works on phones tablets and pc",
-      "links":[
-         {
-            "url":"https://www.youtube.com/shorts/vnErIB1iZzM",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
-         }
-      ]
-   },
-   {
-      "categories":["category1"],
-      "imageUrl":"img/projects/superherocar.webp",
-      "altText":"SUPER HERO CAR SIMULATOR Project Screenshot",
-      "title":"SUPER HERO CAR SIMULATOR",
-      "description":"This is a truck transporter game in which you can transport animals, and cars, rescue cars animals, and dive in the sea with a submarine. Plus much much more",
-      "links":[
-         {
-            "url":"https://play.google.com/store/apps/details?id=com.madattack.superhero.car.transport.truck.game",
-            "text":"Android",
-            "icon":"fab fa-android"
+            "url": "https://play.google.com/store/apps/details?id=com.poshsidekick.acromania&hl=en",
+            "text": "Android",
+            "icon": "fab fa-android"
          },
          {
-            "url":"https://www.youtube.com/watch?v=e3FKrSPkU8A",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.youtube.com/watch?v=-ma7hdsFP_w",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "PHP",
+            "SQL",
+            "Custom APIs",
+            "Multiplayer networking",
+            "iOS",
+            "Android"
+         ],
+         "workDone": [
+            "Built multiplayer acronym-based word gameplay in Unity.",
+            "Created custom PHP APIs connected to an SQL database."
+         ],
+         "outcome": "Released a multiplayer word game on iOS and Android, connecting the Unity client to custom backend APIs and persistent data."
+      },
+      "id": "acromania-multiplayer-game"
    },
    {
-      "categories":["category1"],
-      "imageUrl":"img/projects/fpsshooting2019.webp",
-      "altText":"FPS SHOOTING 2019 Project Screenshot",
-      "title":"FPS SHOOTING 2019",
-      "description":"In this fps game I worked on a mode BATTLE ROYALE. This is based on open world concept.",
-      "links":[
+      "categories": [
+         "category1",
+         "category6"
+      ],
+      "imageUrl": "img/projects/GolfGame.png",
+      "altText": "Golf Game Project Screenshot",
+      "title": "Golf game",
+      "description": "Introducing the innovative Golf Game that integrates cutting-edge spirometry technology to measure the user's respiratory system. To play the game, users are required to provide their personal information, which is then utilized to generate a customized measurement of their lungs.",
+      "links": [
          {
-            "url":"https://play.google.com/store/apps/details?id=com.madattack.fps.commando.shooting.strike",
-            "text":"Android",
-            "icon":"fab fa-android"
+            "url": "https://www.youtube.com/watch?v=KD7Q3qHBFzY",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs",
+            "iOS",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Connected spirometry measurements to interactive golf gameplay.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "Respiratory measurements become input for an interactive golf experience."
+      },
+      "id": "golf-game"
+   },
+   {
+      "categories": [
+         "category1",
+         "category6"
+      ],
+      "imageUrl": "img/projects/Dolphin.png",
+      "altText": "Dolphin Game Project Screenshot",
+      "title": "Dolphin game",
+      "description": "The Spirometry-based Gaming Container App merges interactive gaming with spirometry technology to measure lung capacity. With two engaging games, users play while their inhale and exhale values are recorded.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=La5ttq0NzE0",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs",
+            "iOS",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Built a game container that records inhale and exhale values during play.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "Inhale and exhale values are recorded while users play."
+      },
+      "id": "dolphin-game"
+   },
+   {
+      "categories": [
+         "category4"
+      ],
+      "imageUrl": "img/projects/kinect.jpeg",
+      "altText": "KINECT Project Screenshot",
+      "title": "Kinect bubble game",
+      "description": "Bubble popping game pop bubbles by copying user hand motion made with kinect using depth sensors and infrared cam.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=rGbuNE9XAk0",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "AR/VR SDKs",
+            "Kinect",
+            "Depth sensors",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Mapped Kinect hand movement to real-time bubble-popping interactions.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "Hand movement controls gameplay without a conventional game controller."
+      },
+      "id": "kinect-bubble-game"
+   },
+   {
+      "categories": [
+         "category5"
+      ],
+      "imageUrl": "img/projects/GamificationCardGame.JPG",
+      "altText": "Activity Card Game Project Screenshot",
+      "title": "Activity card game",
+      "description": "A Game based on a cancer detection showcasing a new way to detect cells with the help of gamification",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=yY0crbJEG0g",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Built interactive card challenges around cancer-detection concepts.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "Cancer-detection concepts are presented through interactive card challenges."
+      },
+      "id": "activity-card-game"
+   },
+   {
+      "categories": [
+         "category7"
+      ],
+      "imageUrl": "img/projects/MultiplayerGameWebGl.JPG",
+      "altText": "Portfolio Explorer Project Screenshot",
+      "title": "Portfolio explorer",
+      "description": "A metaverse company portfolio explorer game based on WebGL",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=iDUUyegYpLU",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "WebGL",
+            "Firebase",
+            "Custom APIs",
+            "Agora",
+            "HTML",
+            "JavaScript",
+            "Unity–JavaScript bridge"
+         ],
+         "workDone": [
+            "Built a Unity WebGL experience integrated with Firebase and custom APIs.",
+            "Integrated Agora voice calling.",
+            "Wrote custom HTML/JavaScript and a two-way website–Unity bridge."
+         ],
+         "outcome": "Delivered an interactive company-portfolio experience with voice calling and two-way communication between the website and Unity."
+      },
+      "id": "portfolio-explorer"
+   },
+   {
+      "categories": [
+         "category7",
+         "category5"
+      ],
+      "imageUrl": "img/projects/CarGamificationWeb.png",
+      "altText": "Car Racing Gamification Project Screenshot",
+      "title": "Car racing gamification",
+      "description": "A web based car racing gamification which works on phones tablets and pc",
+      "links": [
+         {
+            "url": "https://www.youtube.com/shorts/vnErIB1iZzM",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "WebGL",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Created a browser-based racing game for phone, tablet and desktop.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "A racing experience playable across mobile, tablet and desktop browsers."
+      },
+      "id": "car-racing-gamification"
+   },
+   {
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/superherocar.webp",
+      "altText": "SUPER HERO CAR SIMULATOR Project Screenshot",
+      "title": "Super hero car simulator",
+      "description": "This is a truck transporter game in which you can transport animals, and cars, rescue cars animals, and dive in the sea with a submarine. Plus much much more",
+      "links": [
+         {
+            "url": "https://play.google.com/store/apps/details?id=com.madattack.superhero.car.transport.truck.game",
+            "text": "Android",
+            "icon": "fab fa-android"
          },
          {
-            "url":"https://www.youtube.com/watch?v=exNSTe3om-I",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.youtube.com/watch?v=e3FKrSPkU8A",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Android",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Built vehicle transportation, rescue and submarine gameplay.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "An Android vehicle game with transportation, rescue and underwater activities."
+      },
+      "id": "super-hero-car-simulator"
    },
    {
-      "categories":["category5"],
-      "imageUrl":"img/projects/MaxLeague1.png",
-      "altText":"MAX LEAGUE Project Screenshot",
-      "title":"MAX LEAGUE",
-      "description":"This is a question and answer based game made for a pharmaceutical company to gamify their event in which multiple doctors are invited to play.",
-      "links":[
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/fpsshooting2019.webp",
+      "altText": "FPS SHOOTING 2019 Project Screenshot",
+      "title": "FPS shooting 2019",
+      "description": "In this fps game I worked on a mode BATTLE ROYALE. This is based on open world concept.",
+      "links": [
          {
-            "url":"https://www.youtube.com/watch?v=Ajs_xOwig6k",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://play.google.com/store/apps/details?id=com.madattack.fps.commando.shooting.strike",
+            "text": "Android",
+            "icon": "fab fa-android"
+         },
+         {
+            "url": "https://www.youtube.com/watch?v=exNSTe3om-I",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Android",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Worked on the battle royale mode in an open-world FPS game.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "An open-world FPS game with a battle royale mode."
+      },
+      "id": "fps-shooting-2019"
    },
    {
-      "categories":["category5"],
-      "imageUrl":"img/projects/gamification-v2.png",
-      "altText":"Zinc Club Project Screenshot",
-      "title":"Zinc Club",
-      "description":"In this game I have utilized a 3D environment to showcase the product for the client as well as making gameplay fun.",
-      "links":[
+      "categories": [
+         "category5"
+      ],
+      "imageUrl": "img/projects/MaxLeague1.png",
+      "altText": "MAX LEAGUE Project Screenshot",
+      "title": "Max League",
+      "description": "This is a question and answer based game made for a pharmaceutical company to gamify their event in which multiple doctors are invited to play.",
+      "links": [
          {
-            "url":"https://www.youtube.com/watch?v=_zEOnKT40eE&t=6s",
-            "text":"Watch Now",
-            "icon":"fas fa-video"
+            "url": "https://www.youtube.com/watch?v=Ajs_xOwig6k",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
          }
-      ]
+      ],
+      "thumbnailFit": "cover",
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Built a question-and-answer game for pharmaceutical events.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "Event attendees can take part in a competitive pharmaceutical quiz."
+      },
+      "id": "max-league"
+   },
+   {
+      "categories": [
+         "category5"
+      ],
+      "imageUrl": "img/projects/thumbnails/zinc-club-v1.jpg",
+      "altText": "Zinc Club — landscape project thumbnail",
+      "title": "Zinc Club",
+      "description": "In this game I have utilized a 3D environment to showcase the product for the client as well as making gameplay fun.",
+      "links": [
+         {
+            "url": "https://www.youtube.com/watch?v=_zEOnKT40eE&t=6s",
+            "text": "Watch Demo",
+            "icon": "fas fa-video"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/gamification-v2.png",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "Unity",
+            "C#",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Used a 3D environment and gameplay to showcase a client’s product.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "A client’s product is presented through a playable 3D experience."
+      },
+      "id": "zinc-club"
+   },
+   {
+      "categories": [
+         "category1"
+      ],
+      "imageUrl": "img/projects/thumbnails/spider-hero-v1.jpg",
+      "altText": "Amazing spider hero vs mutant — landscape project thumbnail",
+      "title": "Amazing spider hero vs mutant",
+      "description": "Ultimate battle with a superhero is a crime-fighting game against dark forces of the universe with marvelous combos and fantastic powers of the web. Play as a heroic legend with your strange rope power & the whole city fears you.",
+      "links": [
+         {
+            "url": "https://apps.apple.com/us/app/amazing-spider-hero-vs-mutant/id1401163324",
+            "text": "iOS",
+            "icon": "fab fa-apple"
+         }
+      ],
+      "thumbnailFit": "cover",
+      "originalImageUrl": "img/projects/Amazing-Spider-Hero-vs-Mutant.png",
+      "thumbnailPosition": "50% 50%",
+      "thumbnailGenerated": true,
+      "details": {
+         "technologies": [
+            "iOS",
+            "Firebase Analytics"
+         ],
+         "workDone": [
+            "Developed superhero crime-fighting gameplay with combat and rope mechanics.",
+            "Integrated Firebase Analytics to collect gameplay data."
+         ],
+         "outcome": "A superhero action game available on iOS."
+      },
+      "id": "amazing-spider-hero-vs-mutant"
    }
-
 ]
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,9 +1,10 @@
 (function () {
     'use strict';
 
-    var cards = document.querySelectorAll('.skill-card');
+    var cards = document.querySelectorAll('.skill-card, .skill-topic');
     var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     var finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
+    var tiltRange = 4.2; // Both card types rotate up to 2.1 degrees in either direction.
 
     function reset(card) {
         card.style.removeProperty('--tilt-x');
@@ -15,14 +16,14 @@
 
     cards.forEach(function (card) {
         card.addEventListener('pointermove', function (event) {
-            if (reducedMotion.matches || !finePointer.matches) return;
+            if (reducedMotion.matches || !finePointer.matches || event.pointerType !== 'mouse') return;
             var bounds = card.getBoundingClientRect();
             var x = Math.max(0, Math.min(1, (event.clientX - bounds.left) / bounds.width));
             var y = Math.max(0, Math.min(1, (event.clientY - bounds.top) / bounds.height));
             card.style.setProperty('--shine-x', (x * 100) + '%');
             card.style.setProperty('--shine-y', (y * 100) + '%');
-            card.style.setProperty('--tilt-x', ((0.5 - y) * 4) + 'deg');
-            card.style.setProperty('--tilt-y', ((x - 0.5) * 4) + 'deg');
+            card.style.setProperty('--tilt-x', ((0.5 - y) * tiltRange) + 'deg');
+            card.style.setProperty('--tilt-y', ((x - 0.5) * tiltRange) + 'deg');
             card.classList.add('is-hovered');
         });
         card.addEventListener('pointerleave', function () { reset(card); });
@@ -44,12 +45,12 @@
             card.dataset.cardTiltBound = 'true';
 
             card.addEventListener('pointermove', function (event) {
-                if (reducedMotion.matches || !finePointer.matches) return;
+                if (reducedMotion.matches || !finePointer.matches || event.pointerType !== 'mouse') return;
                 var bounds = card.getBoundingClientRect();
                 var x = Math.max(0, Math.min(1, (event.clientX - bounds.left) / bounds.width));
                 var y = Math.max(0, Math.min(1, (event.clientY - bounds.top) / bounds.height));
-                card.style.setProperty('--card-rotate-x', ((0.5 - y) * 3) + 'deg');
-                card.style.setProperty('--card-rotate-y', ((x - 0.5) * 3) + 'deg');
+                card.style.setProperty('--card-rotate-x', ((0.5 - y) * tiltRange) + 'deg');
+                card.style.setProperty('--card-rotate-y', ((x - 0.5) * tiltRange) + 'deg');
                 card.classList.add('is-card-tilted');
             });
             card.addEventListener('pointerleave', function () { resetProjectCard(card); });

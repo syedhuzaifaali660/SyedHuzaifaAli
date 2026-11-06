@@ -45,6 +45,11 @@
          ],
          "outcome": "Released an iPad spatial-planning application that combines room scanning, heat-pump layout planning, pipe routing and exportable installation estimates."
       },
+      "featured": {
+         "problem": "Installers need to plan equipment placement and pipe runs in existing rooms.",
+         "role": "I built persistent spatial mapping and PHP–Unity APIs, and integrated the pipe-routing workflow.",
+         "outcome": "Fraunhofer ISE released an iPad app that combines room scanning, pipe planning, and exportable estimates."
+      },
       "id": "heat-pump-planar-fraunhofer-ise"
    },
    {
@@ -166,6 +171,11 @@
             "Simulated the features and operation of breast-cancer detection hardware."
          ],
          "outcome": "An interactive way to learn the device’s features and operating workflow."
+      },
+      "featured": {
+         "problem": "Trainees need to learn the controls and operating sequence of breast-cancer detection equipment.",
+         "role": "I simulated the device’s features and operation in VR.",
+         "outcome": "Trainees can practice the equipment workflow in an interactive simulation."
       },
       "id": "vr-breast-cancer-detection-hardware-simulation"
    },
@@ -522,6 +532,11 @@
             "Optimized the avatar-upload pipeline to address memory pressure and crashes."
          ],
          "outcome": "An iOS avatar performance experience with an improved upload pipeline and lower memory pressure."
+      },
+      "featured": {
+         "problem": "Uploading VRM avatars caused memory pressure and crashes on iOS.",
+         "role": "I optimized the avatar-upload pipeline and integrated ARKit body tracking with VRM animation.",
+         "outcome": "The updated upload pipeline reduced memory pressure in the iOS app."
       },
       "id": "scenic-ar-vtuber-performance"
    },
@@ -1385,18 +1400,23 @@
          "category1",
          "category6"
       ],
-      "imageUrl": "img/projects/GolfGame.png",
+      "imageUrl": "img/projects/ata-app-store/ipad-05-highres.webp",
       "altText": "Golf Game Project Screenshot",
       "title": "Golf game",
-      "description": "Introducing the innovative Golf Game that integrates cutting-edge spirometry technology to measure the user's respiratory system. To play the game, users are required to provide their personal information, which is then utilized to generate a customized measurement of their lungs.",
+      "description": "Breathing measurements control the golf swing in this iPad spirometry game.",
       "links": [
          {
             "url": "https://www.youtube.com/watch?v=KD7Q3qHBFzY",
             "text": "Watch Demo",
             "icon": "fas fa-video"
+         },
+         {
+            "url": "https://apps.apple.com/us/app/ata/id1666902701",
+            "text": "iOS",
+            "icon": "fab fa-apple"
          }
       ],
-      "thumbnailFit": "cover",
+      "thumbnailFit": "contain",
       "details": {
          "technologies": [
             "Unity",
@@ -1421,12 +1441,17 @@
       "imageUrl": "img/projects/Dolphin.png",
       "altText": "Dolphin Game Project Screenshot",
       "title": "Dolphin game",
-      "description": "The Spirometry-based Gaming Container App merges interactive gaming with spirometry technology to measure lung capacity. With two engaging games, users play while their inhale and exhale values are recorded.",
+      "description": "Players guide a dolphin through rings by following a breathing rhythm.",
       "links": [
          {
             "url": "https://www.youtube.com/watch?v=La5ttq0NzE0",
             "text": "Watch Demo",
             "icon": "fas fa-video"
+         },
+         {
+            "url": "https://apps.apple.com/us/app/ata/id1666902701",
+            "text": "iOS",
+            "icon": "fab fa-apple"
          }
       ],
       "thumbnailFit": "cover",
@@ -1453,7 +1478,7 @@
       "imageUrl": "img/projects/kinect.jpeg",
       "altText": "KINECT Project Screenshot",
       "title": "Kinect bubble game",
-      "description": "Bubble popping game pop bubbles by copying user hand motion made with kinect using depth sensors and infrared cam.",
+      "description": "Players pop bubbles with hand movements tracked by a Kinect depth sensor.",
       "links": [
          {
             "url": "https://www.youtube.com/watch?v=rGbuNE9XAk0",

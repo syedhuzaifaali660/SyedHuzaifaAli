@@ -1,1 +1,16 @@
-theme: jekyll-theme-cayman
+# Defense in depth for the old branch-based Jekyll deployment.
+# The approved deployment is scripts/build-site.js -> dist/ through GitHub Actions.
+exclude:
+  - docs
+  - "briefs/*.md"
+  - scripts
+  - tests
+  - output
+  - dist
+  - node_modules
+  - ProfilePicture
+  - analytics-setup.md
+  - img/projects/thumbnails/generation-manifest.json
+  - .vs
+  - .private
+  - .playwright-cli

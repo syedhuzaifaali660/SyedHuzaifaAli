@@ -32,3 +32,11 @@ test('the native iPad planning application does not inflate WebGL counts', () =>
     assert.ok(planar);
     assert.deepEqual(getProjectStats([planar]), { total: 1, games: 0, xr: 1, webgl: 0 });
 });
+
+test('project counters use multiples of five and mark adjusted counts', () => {
+    const { getProjectStatDisplay } = getProjectStats;
+    assert.deepEqual(getProjectStatDisplay(6), { target: 5, suffix: '+' });
+    assert.deepEqual(getProjectStatDisplay(7), { target: 10, suffix: '+' });
+    assert.deepEqual(getProjectStatDisplay(14), { target: 15, suffix: '+' });
+    assert.deepEqual(getProjectStatDisplay(25), { target: 25, suffix: '' });
+});

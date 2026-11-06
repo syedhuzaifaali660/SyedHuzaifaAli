@@ -1,0 +1,10 @@
+.DS_Store
+.vs/
+.private/
+ProfilePicture/
+briefs/*.md
+img/projects/thumbnails/generation-manifest.json
+dist/
+node_modules/
+output/
+.playwright-cli/

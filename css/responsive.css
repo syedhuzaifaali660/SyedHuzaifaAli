@@ -239,9 +239,6 @@
     margin-top: 4px;
     width: 34px;
     }
-    .wellcome_area {
-    background-position: bottom left;
-    }
 
     .header_area.sticky .desktop-brand{
         display: none !important;

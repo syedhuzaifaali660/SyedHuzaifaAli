@@ -1,0 +1,93 @@
+body {
+    background: #f3f9fc;
+    color: #213d50;
+}
+.case-study {
+    max-width: 848px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+}
+.case-study > a {
+    display: inline-block;
+    font-weight: 600;
+    color: #086b94;
+}
+.case-study a:hover, .case-study a:focus-visible {
+    text-decoration: underline;
+}
+.case-study a:focus-visible {
+    outline: 3px solid #147da8;
+    outline-offset: 4px;
+}
+.case-study h1 {
+    font-size: clamp(30px, 5vw, 48px);
+    line-height: 1.2;
+    margin: 32px 0 28px;
+}
+.case-study-image {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 18px;
+    background: #e2eef5;
+}
+.case-study h2 {
+    margin: 38px 0 12px;
+    color: #213d50;
+    font-size: 24px;
+}
+.case-study p {
+    color: #45596a;
+    font-size: 17px;
+    line-height: 1.75;
+    margin-bottom: 22px;
+}
+.case-study p a { color: #086b94; text-decoration: underline; }
+.technology-section {
+    border-top: 1px solid #d5e5ed;
+    margin-top: 40px;
+}
+.technology-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+.technology-list li {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 13px;
+    border: 1px solid #d5e5ed;
+    border-radius: 12px;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.technology-list img, .tech-symbol {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+.tech-symbol {
+    display: grid;
+    place-items: center;
+    border-radius: 7px;
+    color: #086b94;
+    background: #e4f2f8;
+    font-size: 11px;
+    font-weight: 700;
+}
+@media (max-width: 480px) {
+    .case-study { padding: 30px 20px 60px; }
+    .case-study h2 { font-size: 21px; }
+    .case-study-image { max-height: 250px; }
+}
+
+.case-study .golf-case-image {
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}

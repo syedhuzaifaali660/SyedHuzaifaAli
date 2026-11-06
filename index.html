@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://gc.zgo.at; style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self' https://syedhuzaifaali.goatcounter.com; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="description" content="Portfolio of Syed Huzaifa Ali, a Technical Lead and Dev Ops Engineer specialising in spatial computing, simulations, games, and cross-platform applications.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,31 +12,15 @@
 
     <link rel="icon" href="img/favicon.png">
 
-    <!-- Corrected integrity attribute -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
-    <link href="style.css?v=20261003-matched-card-tilt" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha384-t1nt8BQoYMLFN5p42tRAtuAAFQaCQODekUVeKKZrEnEyp4H2R0RHFz0KWpmj7i8g" crossorigin="anonymous">
+    <link href="style.css?v=20261106-golf-gameplay" rel="stylesheet">
 
-    <link href="css/responsive.css?v=20261003-card-spacing" rel="stylesheet">
+    <link href="css/responsive.css?v=20261106-selected-work" rel="stylesheet">
 
     <!-- Added for performance: CSS links moved from style.css -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet">
 
-    <style>
-        /* Mobile video fallback */
-        @media (max-width: 768px) {
-            .wellcome_area .video-background {
-                display: none; /* Hide video on mobile */
-            }
-            .wellcome_area {
-                /* Create a fallback image, e.g., a blurred screenshot of the video */
-                background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('img/bg-img/slider-bg.jpg');
-                background-size: cover;
-                background-position: center;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -46,21 +32,20 @@
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <a class="navbar-brand desktop-brand" href="#home"><img src="img/logo.svg" class="brand-identity" alt="Syed Huzaifa Ali Logo"></a>
                             <a class="navbar-brand" href="#home"><img src="img/logo.png" class="brand-identity-scroll" alt="Syed Huzaifa Ali Logo (Scroll)"></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                            <button class="navbar-toggler" type="button" aria-controls="ca-navbar" aria-expanded="false" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
                             <div class="collapse navbar-collapse" id="ca-navbar">
                                 <ul class="navbar-nav mr-auto" id="nav">
                                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#companies">Companies</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#brands">Brands</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                                 </ul>
                                 <div class="sing-up-btn-group">
                                 <div class="sing-up-button">
-                                    <!-- <a href="tel:00923333707130">+923333707130</a> -->
                                 </div>
                                 <div class="sing-up-button">
-                                    <!-- <a href="mailto:syedhuzaifaali660@gmail.com">syedhuzaifaali660@gmail.com</a> -->
                                 </div>
                                 </div>
                             </div>
@@ -71,15 +56,13 @@
         </div>
     </header>
     <section class="wellcome_area clearfix" id="home">
-        <div class="video-background">
-            <video autoplay muted loop playsinline aria-hidden="true">
+        <div class="video-background" aria-hidden="true">
+            <video autoplay muted loop playsinline>
                 <source src="img/video/geek.mp4" type="video/mp4">
-                Your browser does not support the video tag.
             </video>
-            <div class="video-overlay"></div>
         </div>
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
+        <div class="container">
+            <div class="row">
                 <div class="col-12 col-md">
                     <div class="get-start-area">
                         <div class="text-center">
@@ -88,15 +71,60 @@
                                 <span class="hero-roles"><span>Technical Lead</span><span class="hero-separator" aria-hidden="true"> | </span><span>Dev Ops Engineer</span></span>
                                 <span class="hero-specialty">Spatial Computing &amp; Simulation</span>
                             </p>
-                            <div class="portfolio-visits" data-count-label="Portfolio visits" title="Visits since tracking started. Repeat visits within a session are deduplicated; counts update periodically.">
+                            <div class="portfolio-visits" title="Includes 1,000 visits from before tracking. Repeat visits within a session are deduplicated; counts update periodically.">
                                 <i class="fas fa-eye" aria-hidden="true"></i>
-                                <span data-counter-path="/portfolio">—</span><span>portfolio visits</span>
+                                <span id="portfolio-visit-count">1,000</span><span>portfolio visits</span>
+                            </div>
+                            <div class="hero-actions">
+                                <a class="contact-link" href="#work">View selected work</a>
+                                <a class="contact-link hero-resume" href="syed-huzaifa-ali-resume.pdf" download>Download resume</a>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="selected-work" id="work" aria-labelledby="selected-work-heading">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2 id="selected-work-heading">Selected work</h2>
+                <div class="line-shape"></div>
+            </div>
+            <div class="row" id="featured-projects">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <article class="single-special featured-card">
+                        <div class="project-header"><img src="img/projects/thumbnails/heat-pump-planar-v1.jpg" alt="" loading="lazy"></div>
+                        <div class="project-body">
+                            <h3>Heat Pump PlanAR — Fraunhofer ISE</h3>
+                            <p>I built room mapping and pipe routing for an iPad prototype that helps installers plan heat pumps in existing rooms.</p>
+                            <a class="contact-link" href="briefs/heat-pump-planar.html" aria-label="Read case study — Heat Pump PlanAR — Fraunhofer ISE">Read case study</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <article class="single-special featured-card">
+                        <div class="project-header golf-thumbnail"><img src="img/projects/ata-app-store/ipad-05-highres.webp" alt="" loading="lazy"></div>
+                        <div class="project-body">
+                            <h3>Golf &amp; Dolphin — Spirometry with Unity and iOS</h3>
+                            <p>I built a shared Unity app that records breathing measurements during play and uses them as input in Golf.</p>
+                            <a class="contact-link" href="briefs/spirometry-golf-dolphin.html" aria-label="Read case study — Golf &amp; Dolphin — Spirometry with Unity and iOS">Read case study</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <article class="single-special featured-card">
+                        <div class="project-header"><img src="img/projects/thumbnails/pokemon-generator.svg" alt="" loading="lazy"></div>
+                        <div class="project-body">
+                            <h3>Pokémon Detector — From Unity to iPhone</h3>
+                            <p>I generated labeled images in Unity, trained a YOLO detector, and ran it live on a webcam and an iPhone.</p>
+                            <a class="contact-link" href="briefs/pokemon-synthetic-detector.html" aria-label="Read case study — Pokémon Detector — From Unity to iPhone">Read case study</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <p class="text-center mb-0"><a class="contact-link" href="#project-archive">Browse all projects</a></p>
         </div>
     </section>
     <div class="profile-overview section_padding_100">
@@ -114,16 +142,70 @@
                             </nav>
                     </div>
                 </section>
+                <section id="brands" aria-labelledby="brands-heading">
+                    <div class="section-heading text-center">
+                        <h2 id="brands-heading">Brands</h2>
+                        <div class="line-shape"></div>
+                    </div>
+
+                    <div class="brands-grid" role="list" aria-label="Brands">
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame"><img src="img/clients/1.png" alt="GSK logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame company-logo-getz"><img src="img/clients/2.png" alt="Getz Pharma logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame"><img src="img/clients/3.png" alt="Bayer logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame"><img src="img/clients/4.png" alt="Roche logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame company-logo-abbott"><img src="img/clients/5.png" alt="Abbott logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame"><img src="img/clients/fraunhofer-ise.png" alt="Fraunhofer ISE logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame"><img src="img/clients/6.png" alt="Metaltronica logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame"><img src="img/clients/7.png" alt="Menarini logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame"><img src="img/clients/8.png" alt="NED University logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame company-logo-with-name">
+                                <img src="img/clients/scenic.webp" alt="" width="40" height="40">
+                                <span>Scenic</span>
+                            </div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame"><img src="img/clients/acplus.png" alt="Accelerated Care Plus logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame"><img src="img/clients/allstartech.png" alt="All Star Tech logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame"><img src="img/clients/digitrends.svg" alt="DigiTrends logo"></div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame company-logo-with-name">
+                                <img src="img/clients/game-storm-studios.png" alt="" width="40" height="40">
+                                <span>The Game Storm Studios</span>
+                            </div>
+                        </article>
+                        <article class="company-card" role="listitem">
+                            <div class="company-logo-frame company-logo-with-name">&amp; More</div>
+                        </article>
+                    </div>
+                </section>
                 <section class="profile-skills" id="skills" aria-labelledby="skills-heading">
                     <div class="profile-skills-heading">
-                        <div class="skills-heading-copy">
-                            <h2 id="skills-heading">Skills &amp; Expertise</h2>
-                            <p>The tools, systems, and people skills I bring to every build.</p>
-                        </div>
-                        <ul class="skills-languages" aria-label="Language proficiency">
-                            <li><span>English</span><strong>C1</strong><span class="language-dots" aria-hidden="true"><span class="is-filled"></span><span class="is-filled"></span><span class="is-filled"></span><span class="is-filled"></span><span class="is-filled"></span></span></li>
-                            <li><span>German</span><strong>A1</strong><span class="language-dots" aria-hidden="true"><span class="is-filled"></span><span></span><span></span><span></span><span></span></span></li>
-                        </ul>
+                        <h2 id="skills-heading">Skills &amp; Expertise</h2>
+                        <p>The tools, systems, and people skills I bring to every build.</p>
                     </div>
                     <div class="skills-directory">
                         <section class="skill-topic" aria-labelledby="expertise-2">
@@ -236,7 +318,7 @@
                 <div class="col-6 col-md-3">
                     <div class="single-cool-fact d-flex">
                         <div class="counter-area">
-                            <h3><span data-project-stat="total" aria-label="Loading count">—</span></h3>
+                            <h3><span id="total-project-count">60<span class="project-stat-suffix">+</span></span></h3>
                         </div>
                         <div class="cool-facts-content"><p>Total Projects</p></div>
                     </div>
@@ -266,25 +348,17 @@
                     </div>
                 </div>
             </div>
-            <p class="project-counts-note">Counts reflect the projects shown below. Categories may overlap.</p>
         </div>
     </section>
 
-    <section class="special-area bg-white section_padding_100_50" id="work">
+    <section class="special-area bg-white section_padding_100_50" id="project-archive" aria-labelledby="archive-heading">
         <div class="container">
-            <div class="row mt-50">
-                <div class="col-12">
-                    <div class="section-heading text-center">
-                        <h2>Featured Projects</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
+            <div class="section-heading text-center">
+                <h2 id="archive-heading">Project archive</h2>
+                <div class="line-shape"></div>
             </div>
-
-
-            <div id="items" class="container-flui">
-                <br>
-                <div class="btn-category-group text-center mb-4">
+            <div id="items">
+                <div class="btn-category-group text-center mb-4" role="group" aria-label="Filter projects">
                     <button type="button" class="btn category-button current" aria-pressed="true" data-filter = "all"> All </button>
                     <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category1"> Games </button>
                     <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category2"> Augmented Reality </button>
@@ -297,187 +371,33 @@
                     <button type="button" class="btn category-button" aria-pressed="false" data-filter = "category9"> Tools &amp; Demos </button>
                 </div>
 
-                <!-- Projects will be dynamically inserted here -->
+                <p id="archive-status" class="text-center" role="status" aria-atomic="true"></p>
                 <div class="row huzaifa-portfolio" id="project-grid">
-                    <p id="loading-projects" class="text-center" style="width:100%; color:#726a84; margin: 20px 0;">Loading projects...</p>
+                    <p id="loading-projects" class="text-center">Loading projects...</p>
                     <!-- JavaScript will fill this. -->
                 </div>
             </div>
         </div>
     </section>
-    <section class="special-area bg-white section_padding_100 companies-section" id="companies" aria-labelledby="companies-heading">
-        <div class="container">
-            <div class="section-heading text-center">
-                <h2 id="companies-heading">Companies</h2>
-                <div class="line-shape"></div>
-                <p class="companies-intro">Teams and organisations I have built products, simulations, and interactive experiences for.</p>
-            </div>
-
-            <div class="companies-grid" role="list" aria-label="Companies and organisations">
-                <article class="company-card" role="listitem">
-                    <div class="company-logo-frame"><img src="img/clients/1.png" alt="GSK logo"></div>
-                </article>
-                <article class="company-card" role="listitem">
-                    <div class="company-logo-frame company-logo-getz"><img src="img/clients/2.png" alt="Getz Pharma logo"></div>
-                </article>
-                <article class="company-card" role="listitem">
-                    <div class="company-logo-frame"><img src="img/clients/3.png" alt="Bayer logo"></div>
-                </article>
-                <article class="company-card" role="listitem">
-                    <div class="company-logo-frame"><img src="img/clients/4.png" alt="Roche logo"></div>
-                </article>
-                <article class="company-card" role="listitem">
-                    <div class="company-logo-frame company-logo-abbott"><img src="img/clients/5.png" alt="Abbott logo"></div>
-                </article>
-                <article class="company-card" role="listitem">
-                    <div class="company-logo-frame"><img src="img/clients/fraunhofer-ise.png" alt="Fraunhofer ISE logo"></div>
-                </article>
-                <article class="company-card" role="listitem">
-                    <div class="company-logo-frame"><img src="img/clients/6.png" alt="Metaltronica logo"></div>
-                </article>
-                <article class="company-card" role="listitem">
-                    <div class="company-logo-frame"><img src="img/clients/7.png" alt="Menarini logo"></div>
-                </article>
-                <article class="company-card" role="listitem">
-                    <div class="company-logo-frame"><img src="img/clients/8.png" alt="NED University logo"></div>
-                </article>
-            </div>
-        </div>
-    </section>
 
 <footer class="footer-bg text-center clearfix section_padding_100_50">
+    <section class="container footer-contact" id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Open to new roles and collaborations</h2>
+        <a class="contact-link" href="mailto:syedhuzaifaali660@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email me</a>
+        <p class="contact-address">syedhuzaifaali660@gmail.com</p>
+    </section>
     <div class="footer-social-icon">
         <a target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/syed-huzaifa-ali/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
         <a target="_blank" rel="noopener noreferrer" title="YouTube" aria-label="YouTube" href="https://www.youtube.com/channel/UCpfKpCsfVGrZ2CCt9fdQbzg"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-        <a target="_blank" rel="noopener noreferrer" title="NED University" aria-label="NED University" href="https://csrd.neduet.edu.pk/"><i class="fas fa-university"></i></a>
-
-
     </div>
     <div class="copyright-text">
         <p>Syed Huzaifa Ali - All rights reserved 2026</p>
     </div>
 </footer>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"
-integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-crossorigin="anonymous"></script>
-<!-- Corrected integrity attributes -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="js/plugins.js"></script>
-<script src="js/active.js?v=20261003-final-audit"></script>
-<script src="js/project-stats.js"></script>
-<script src="js/portfolio-analytics.js?v=20261003-hover-views"></script>
-<script src="js/skills.js?v=20261003-half-card-tilt"></script>
-
-
-<script>
-    $(document).ready(function(){
-        loadProjects();
-    });
-
-    function loadProjects() {
-        // Fetch the project data from the JSON file
-        $.ajax({ url: 'projects.json', dataType: 'json', cache: false }).done(function(data) {
-            var projectContainer = $('.huzaifa-portfolio');
-            $('#loading-projects').remove(); // Remove loading message
-
-            var stats = getProjectStats(data || []);
-            $('[data-project-stat]').each(function () {
-                $(this).text(stats[this.dataset.projectStat]).removeAttr('aria-label');
-            });
-
-            // Check if data was loaded
-            if (!data || data.length === 0) {
-                projectContainer.html('<p class="text-center" style="width: 100%;">Could not load projects.</p>');
-                return;
-            }
-
-            // Loop through each project in the JSON file
-            $.each(data, function(index, project) {
-                // Join all categories into a space-separated string for the class
-                var categoryClasses = project.categories.join(' ');
-
-                // Start building the HTML string for the project card
-                var projectHtml = '<div class="col-lg-4 col-md-6 align-self-stretch mb-4 all ' + categoryClasses + ' well">';
-
-                var projectId = window.portfolioAnalytics.projectKey(project);
-                var attributeTitle = $('<div>').text(project.title).html().replace(/"/g, '&quot;');
-                projectHtml += '<article class="single-special text-center" data-project-id="' + projectId + '" data-project-title="' + attributeTitle + '">';
-                var thumbnailFit = project.thumbnailFit === 'contain' ? 'contain' : 'cover';
-                var thumbnailPosition = project.thumbnailPosition || '50% 50%';
-                projectHtml += '<div class="project-header" style="--thumbnail-fit:' + thumbnailFit + ';--thumbnail-position:' + thumbnailPosition + '"><img src="' + project.imageUrl + '" alt="' + project.altText + '" loading="lazy" draggable="false">';
-                if (project.imageCredit) projectHtml += '<span class="project-image-credit">' + project.imageCredit + '</span>';
-                projectHtml += '<div class="project-metrics" aria-label="Project views">';
-                projectHtml += '<span data-count-label="Card views" title="Views: a card button click or 10 seconds of continuous mouse hover; repeat views within a session are deduplicated."><i class="fas fa-eye" aria-hidden="true"></i> <span data-counter-path="card-view-' + projectId + '">—</span></span>';
-                projectHtml += '</div></div>';
-                projectHtml += '<div class="project-body">';
-                projectHtml += '<h4>' + project.title + '</h4>';
-
-                // Add the description, handling potential undefined or null values
-                projectHtml += '<p>' + (project.description || '') + '</p>';
-
-                // Render every card's links through the same responsive button group.
-                if (project.links && project.links.length) {
-                    projectHtml += '<div class="btn-group">';
-                    $.each(project.links, function(i, link) {
-                        projectHtml += '<div class="app-download-btn">';
-                        projectHtml += '<a href="' + link.url + '" target="_blank" rel="noopener noreferrer" data-project-button="' + window.portfolioAnalytics.projectKey({title: link.text}) + '">';
-                        if (link.text === "View More") {
-                            projectHtml += '<p class="mb-0">' + link.text + ' <i class="' + link.icon + '" aria-hidden="true"></i></p>';
-                        } else {
-                            projectHtml += '<p class="mb-0"><i class="' + link.icon + '" aria-hidden="true"></i> ' + link.text + '</p>';
-                        }
-                        projectHtml += '</a></div>';
-                    });
-                    projectHtml += '</div>';
-                }
-
-                projectHtml += '</div>'; // close .project-body
-                projectHtml += '</article>'; // close .single-special
-                projectHtml += '</div>'; // close project column
-
-                // Append the newly created HTML to the container
-                projectContainer.append(projectHtml);
-            });
-
-            if (window.initProjectCardEffects) window.initProjectCardEffects();
-            window.portfolioAnalytics.initProjects();
-
-            // --- FILTER LOGIC ---
-            // Now that all project elements are loaded, attach the filter click handlers.
-
-            // clicking button with class "category-button"
-            $(".category-button").click(function(){
-                // get the data-filter value of the button
-                var filterValue = $(this).attr('data-filter');
-
-                // Handle button active state
-                $('.btn-category-group .current').removeClass('current');
-                $('.category-button').attr('aria-pressed', 'false');
-                $(this).addClass('current').attr('aria-pressed', 'true');
-
-                // show all items
-                if(filterValue == "all")
-                {
-                    $(".all").show();
-                }
-                else
-                {
-                    // hide all items
-                    $(".all").not('.'+filterValue).hide();
-                    // and then, show only items with selected data-filter value
-                    $(".all").filter('.'+filterValue).show();
-                }
-            });
-
-        }).fail(function() {
-            $('[data-project-stat]').text('—').attr('aria-label', 'Count unavailable');
-            // Show an error message if projects.json can't be loaded
-            $('#loading-projects').remove(); // Remove loading message
-            $('.huzaifa-portfolio').html('<p class="text-center" style="color: red; width: 100%;">Error: Could not load projects.json. Please ensure the file exists in the same directory as index.html.</p>');
-        });
-    }
-</script>
+<script src="js/active.js" defer></script>
+<script src="js/project-stats.js" defer></script>
+<script src="js/portfolio-analytics.js" defer></script>
+<script src="js/skills.js" defer></script>
+<script src="js/projects.js?v=20261106-app-store" defer></script>
 </body>
-
 </html>

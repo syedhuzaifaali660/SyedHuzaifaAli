@@ -28,6 +28,65 @@ const types = {'.html':'text/html','.js':'application/javascript','.css':'text/c
   await page.waitForSelector('#project-grid article');
   assert.equal(await page.locator('#project-grid article').count(),53);
   assert.equal(await page.locator('#featured-projects article').count(),3);
+  const skillTitles = [
+   'Spatial Computing & XR', 'AI, Computer Vision & Automation', 'Architecture & Engineering',
+   'Technical Leadership & Product Management', 'Multiplayer & Real-Time', 'Platforms & Monetization'
+  ];
+  assert.deepEqual(await page.locator('.skill-topic h3').allTextContents(),skillTitles);
+  assert.deepEqual(await page.locator('.skill-topic').evaluateAll(cards=>cards.map(card=>card.querySelectorAll('.skill-names li').length)),[9,9,9,9,9,8]);
+  for (const width of [1440,768,390,320]) {
+   await page.setViewportSize({width,height:1000});
+   await page.evaluate(()=>window.scrollTo(0,0));
+   const layout=await page.evaluate(()=>{
+    const rect=node=>{const r=node.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top,bottom:r.bottom,width:r.width};};
+    const cards=Array.from(document.querySelectorAll('.skill-topic'));
+    const clipped=Array.from(document.querySelectorAll('.hero-roles,.hero-specialty,.skill-topic,.skill-topic h3,.skill-names li,.profile-about p'))
+     .filter(node=>node.scrollWidth>node.clientWidth+1 || node.scrollHeight>node.clientHeight+1)
+     .map(node=>node.textContent.trim());
+    const outside=cards.flatMap(card=>Array.from(card.querySelectorAll('h3,li')).filter(node=>{
+     const child=rect(node),parent=rect(card);
+     return child.left<parent.left-1 || child.right>parent.right+1 || child.bottom>parent.bottom+1;
+    }).map(node=>node.textContent.trim()));
+    const about=Array.from(document.querySelectorAll('.profile-about p')).map(node=>({
+     ...rect(node),fontSize:parseFloat(getComputedStyle(node).fontSize),marginBottom:parseFloat(getComputedStyle(node).marginBottom)
+    }));
+    return {cards:cards.map(rect),about,tagFontSizes:cards.map(card=>parseFloat(getComputedStyle(card.querySelector('li')).fontSize)),
+     clipped,outside,overflow:document.documentElement.scrollWidth>innerWidth,
+     name:rect(document.querySelector('.slider-heading')),roles:rect(document.querySelector('.hero-roles')),
+     specialty:rect(document.querySelector('.hero-specialty')),visits:rect(document.querySelector('.portfolio-visits')),
+     actions:rect(document.querySelector('.hero-actions')),hero:rect(document.querySelector('#home'))};
+   });
+   assert.deepEqual(layout.clipped,[],`clipped content at ${width}px`);
+   assert.deepEqual(layout.outside,[],`content outside cards at ${width}px`);
+   assert.equal(layout.overflow,false,`horizontal overflow at ${width}px`);
+   assert.ok(layout.tagFontSizes.every(size=>size>=14),`readable tags at ${width}px`);
+   assert.equal(layout.about.length,3);
+   layout.about.forEach((paragraph,index)=>{
+    assert.ok(paragraph.fontSize>=16 && paragraph.marginBottom>=16,`readable About me text at ${width}px`);
+    if (width===1440) assert.ok(paragraph.width<1000,'constrained About me line length');
+    if (index) assert.ok(paragraph.top>=layout.about[index-1].bottom+16,'About me paragraph spacing');
+   });
+   assert.ok(layout.name.bottom<=layout.roles.top && layout.roles.bottom<=layout.specialty.top &&
+    layout.specialty.bottom<=layout.visits.top && layout.visits.bottom<=layout.actions.top &&
+    layout.actions.bottom<=layout.hero.bottom,`hero overlap at ${width}px`);
+   layout.cards.forEach((card,index)=>{
+    if (width>=768) {
+     if (index%2) {
+      assert.equal(card.top,layout.cards[index-1].top);
+      assert.ok(card.left>=layout.cards[index-1].right);
+     } else if (index>=2) assert.ok(card.top>=layout.cards[index-2].bottom);
+    } else if (index) {
+     assert.equal(card.left,layout.cards[index-1].left);
+     assert.ok(card.top>=layout.cards[index-1].bottom);
+    }
+   });
+   await page.screenshot({path:path.join(screenshots,`homepage-hero-${width}.png`)});
+   await page.locator('.header_area').evaluate(header=>header.hidden=true);
+   await page.locator('.skills-directory').screenshot({path:path.join(screenshots,`homepage-skills-${width}.png`)});
+   await page.locator('.profile-about').screenshot({path:path.join(screenshots,`homepage-about-${width}.png`)});
+   await page.locator('.header_area').evaluate(header=>header.hidden=false);
+  }
+  await page.setViewportSize({width:1440,height:1000});
   await page.locator('[data-filter="category1"]').click();
   const shown=await page.locator('#project-grid > div:visible').count();
   assert.ok(shown>0 && shown<53);
@@ -72,6 +131,6 @@ const types = {'.html':'text/html','.js':'application/javascript','.css':'text/c
   }
   assert.deepEqual(errors,[]);
   assert.deepEqual(csp,[]);
-  console.log('PASS: 53 cards, filtering, literal hostile text, URL blocking, mobile navigation, 3 briefs, private URL 404s, no JS/CSP errors.');
+  console.log('PASS: hero and six skills cards at 1440/768/390/320px, reading order, tag counts, no clipping/overlap; 53 project cards, filtering, literal hostile text, URL blocking, mobile navigation, 3 briefs, private URL 404s, no JS/CSP errors.');
  } finally {await browser.close();server.close();}
 })().catch(e=>{console.error(e);process.exit(1);});

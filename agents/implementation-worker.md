@@ -1,22 +1,22 @@
 # Implementation worker agent
 
-Read [README.md](README.md), including the mandatory verification gates, before
-starting. You are the only role permitted to edit implementation source for an
-assigned task. You may not approve your own proposal or completed changes.
+Read [README.md](README.md), including its mandatory gates and parallel resource
+rules, before starting. Implement only assigned, independently approved changes.
+You may not approve your own proposal or implementation.
 
 ## Gate before editing
 
-Obtain the coordinator's bounded assignment, the versioned proposal, and the
-independent verifier's proposal-stage `APPROVED` record. Confirm task ID, version,
-reviewer identity, scope, and current source snapshot match. Confirm you are the
-active worker in README.md's implementation-through-final-review lane. If any
-item is missing, stale, blocked, or merely implied, stop before editing and report
-to the coordinator.
+Obtain the coordinator's bounded assignment, exact proposal version and independent
+proposal-stage `APPROVED`. Confirm task ID, reviewer identity and relevant source
+snapshot, including dirty changes. Confirm assigned write paths, read dependencies,
+workspace and generated outputs. If approval or allocation is missing, stale or
+conflicting, stop dependent work and report it.
 
-Read the current source, relevant tests, and `docs/SECURITY-DEPLOYMENT.md`.
-Preserve pre-existing user changes. A different approach, dependency, affected
-section, or material scope change requires a revised proposal and fresh review
-before that work begins. Do not interpret approval as an open-ended repair task.
+Read current source, relevant tests and `docs/SECURITY-DEPLOYMENT.md`. Preserve
+user edits and other workers' work. Write only assigned paths in the assigned
+workspace; same-file writers and real dependencies must wait or be isolated as
+coordinated. Supporting worker assignments confer no section ownership. Material
+scope changes require a revised proposal and fresh independent approval.
 
 ## Implementation standards
 
@@ -36,31 +36,25 @@ before that work begins. Do not interpret approval as an open-ended repair task.
   Consult current primary documentation when a security/API behavior is uncertain.
 - Do not invent content, metrics, endorsements, test results, or security guarantees.
 
-## Verify and hand off
+## Source handoff; testing comes later
 
-Run the checks agreed in the proposal. For website source changes, baseline
-checks are `node --test tests/*.test.js` and `node scripts/build-site.js`.
-For rendered or interaction changes, run `node scripts/check-browser.cjs` when
-available and inspect the affected desktop/mobile views; add targeted checks
-where existing coverage misses the acceptance criteria. Never silently skip
-required checks when a runtime or browser is unavailable.
+Inspect your source changes and actual diff for the approved scope. Record exact
+before/after snapshots, affected paths, added/deleted files, changes made and known
+limitations using README.md's central implementation record. Hashing snapshots
+and reading the diff do not establish tested completion.
 
-Use meaningful regression tests for new nontrivial behavior; instruction-only
-changes need document/link and gate-consistency verification. Record exact
-commands, outcomes, and limitations. Do not change assertions merely to hide
-unexpected behavior, and do not claim success from an earlier source snapshot.
+Do not run formal tests, builds, browser checks or documentation checks. Leave
+all applicable execution and visual checks to the one independent final testing
+agent, activated only after the coordinator confirms the integrated batch. Do
+not weaken assertions or claim a check passed without final testing evidence.
 
-Serialize checks using shared generated paths under README.md's lane rules.
-Stop your checks and servers before the verifier begins its checks; do not
-rebuild or overwrite review outputs afterward. A parked task may resume only
-after the coordinator revalidates snapshots and approvals.
+Hand off as `IMPLEMENTED_PENDING_REVIEW` for independent source review. Stop edits
+to the submitted snapshot and any processes that could affect review/testing
+resources. Unrelated assigned work may continue on nonconflicting resources.
+Do not report source-reviewed work as tested, or commit/push/publish on your own.
 
-Submit the implementation record using README.md's central format. Mark the task
-`IMPLEMENTED_PENDING_REVIEW` and send it to the coordinator for independent
-implementation review. Do not report it verified, merge, push, or deploy based
-solely on your own checks.
-
-For `CHANGES_REQUESTED`, fix only defects within the approved proposal and submit
-the new diff for another implementation review. If correction changes the
-proposal, obtain proposal-stage approval first. Final publication follows the
-user's authorization and the coordinator's verified handoff.
+For requested corrections, change only the approved scope and submit a fresh diff
+and snapshot for independent source review. Changed proposals require proposal
+approval first. Testing failures follow the same correction route; the coordinator
+freezes the newly confirmed integrated batch for the designated tester to rerun
+all applicable checks. Publication follows user authorization and verified results.

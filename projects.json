@@ -5,8 +5,8 @@
       ],
       "imageUrl": "img/projects/thumbnails/heat-pump-planar-v1.jpg",
       "altText": "Heat Pump PlanAR — Fraunhofer ISE — landscape project thumbnail",
-      "title": "Heat Pump PlanAR — Fraunhofer ISE",
-      "description": "An iPad-based spatial planning system for heat-pump installations. It combines 3D room scanning, augmented-reality planning, automated pipe routing, and exportable material and installation estimates.",
+      "title": "Heat Pump PlanAR | Fraunhofer ISE",
+      "description": "Installers scan rooms on iPad, place heat pumps, and plan pipe routes in AR. I built layout restoration and backend APIs, and managed iOS releases.",
       "links": [
          {
             "url": "https://www.ise.fraunhofer.de/de/presse-und-medien/presseinformationen/2026/fraunhofer-ise-entwickelt-softwaretool-fuer-beschleunigten-waermepumpeneinbau.html",

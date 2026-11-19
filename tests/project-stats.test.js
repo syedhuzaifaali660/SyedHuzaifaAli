@@ -28,7 +28,7 @@ test('utility demos remain in the portfolio without inflating the game count', (
 });
 
 test('the native iPad planning application does not inflate WebGL counts', () => {
-    const planar = projects.find(project => project.title === 'Heat Pump PlanAR — Fraunhofer ISE');
+    const planar = projects.find(project => project.id === 'heat-pump-planar-fraunhofer-ise');
     assert.ok(planar);
     assert.deepEqual(getProjectStats([planar]), { total: 1, games: 0, xr: 1, webgl: 0 });
 });

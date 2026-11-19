@@ -24,7 +24,7 @@ test('homepage hero preserves the name and uses the requested role and focus', (
     const roles = html.match(/<span class="hero-roles">(.*?)<\/span>\s*<span class="hero-specialty">/s)[1];
     assert.equal(roles.replace(/<[^>]+>/g, '').trim(), 'Senior Software Engineer | Technical Lead');
     assert.equal(decode(html.match(/<span class="hero-specialty">(.*?)<\/span>/)[1]),
-        'I build real-time simulations, XR applications, and AI tools.');
+        'I build real-time simulations, XR applications, and AI tools. My work spans software architecture, backend development, and DevOps.');
 });
 
 test('hero keeps the keyboard video and usable links without a playback button', () => {

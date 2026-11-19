@@ -5,26 +5,44 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://gc.zgo.at; style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src 'self' https://syedhuzaifaali.goatcounter.com; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Heat Pump PlanAR</title>
+<title>Heat Pump PlanAR | Fraunhofer ISE</title>
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="case-study.css">
 </head>
 <body><main class="case-study">
 <a href="../index.html#work">← Back to portfolio</a>
-<h1>Heat Pump PlanAR</h1>
+<h1>Heat Pump PlanAR | Fraunhofer ISE</h1>
+<p><strong>My role</strong> · Scientific Assistant, Spatial Computing &amp; Simulation</p>
+<p><a href="https://www.ise.fraunhofer.de/de/presse-und-medien/presseinformationen/2026/fraunhofer-ise-entwickelt-softwaretool-fuer-beschleunigten-waermepumpeneinbau.html">Fraunhofer ISE public release</a></p>
 <img class="case-study-image" src="../img/projects/thumbnails/heat-pump-planar-v1.jpg" alt="Heat Pump PlanAR interface">
 <h2>Overview</h2>
-<p>At Fraunhofer ISE, I developed parts of an iPad spatial-planning application for heat-pump installations. The application combines room scanning, augmented-reality planning, pipe routing, and installation estimates.</p>
-<h2>My contribution</h2>
-<p>I architected a modular spatial-planning workflow and developed Unity tools, persistent spatial mapping, and model import and export. I integrated planning workflows and APIs, and optimized saved-room browsing to reduce loading time and improve responsiveness.</p>
+<p>On a first site visit, a heating installer needs to work out where the equipment will fit, how the pipes will run, and what the job will take. Heat Pump PlanAR brings those steps into an iPad app. My work at Fraunhofer ISE covered spatial planning, Python backend integration, and DevOps for iOS releases.</p>
+<p>The installer scans the room and selects a heating system configuration. The app places the main components and proposes a pipe route. The installer can inspect the layout in augmented reality, move equipment, and compare options on site. The team can revise the plan later and export a materials list and estimated installation time to help prepare a quote.</p>
+<h2>Spatial planning in Unity</h2>
+<p>I designed the modular digital twin workflow in Unity and C#, connecting the scanned room, heating components, and pipework. I used the surfaces captured by the iPad’s LiDAR sensor as obstacles during equipment placement and pipe routing.</p>
+<p>I built controls that let installers pin components to walls, set their height, and rotate them in 90-degree increments. I also added top and wall views so users could follow a pipe run from above or check the height of a wall-mounted component.</p>
+<h2>Restoring saved layouts</h2>
+<p>When an installer returns to a room, the components in a saved plan need to reappear where they were originally placed. I used ARKit spatial anchors and versioned world maps to tie the layout to the physical room. Once the iPad recognized the room again, the app restored the saved components to their previous positions. I also built session recovery logic and improved saved-room browsing to reduce load times.</p>
+<h2>Python backend and engineering integration</h2>
+<p>I built custom Unity editor tools and a Python API that connected the iPad app to its backend. I also developed a workflow to import, label, and export 3D models in GLB format for handoff to building information modeling (BIM) tools.</p>
+<p>I ran Unity in headless mode to extract room measurements and publish them as structured data. This gave external planning tools access to measurements from the same room scan.</p>
+<h2>DevOps and iOS release management</h2>
+<p>I managed iOS provisioning, validated builds on target devices, and handled build uploads and user accounts in App Store Connect. I distributed builds through TestFlight and mobile device management (MDM). I used dedicated development, bugfix, release, and deployment branches so changes could be traced through each release.</p>
+<p>I wrote automated tests for performance and load times and ran regression tests after changes to check that existing features still worked.</p>
+<h2>Outcome</h2>
+<p>Installers could check a proposed layout against the actual room during the first visit and reopen it in place on a later visit. The exported materials list and installation estimate supported quoting, while the 3D models and room measurements could be carried into downstream engineering tools.</p>
 <section class="technology-section" aria-labelledby="technology-heading">
 <h2 id="technology-heading">Technologies used</h2>
 <ul class="technology-list">
 <li><img src="../img/skills/unity.svg" alt=""><span>Unity</span></li>
 <li><img src="../img/skills/csharp.svg" alt=""><span>C#</span></li>
+<li><img src="../img/skills/python.svg" alt=""><span>Python</span></li>
 <li><span class="tech-symbol" aria-hidden="true">AR</span><span>ARKit</span></li>
 <li><span class="tech-symbol" aria-hidden="true">LI</span><span>LiDAR</span></li>
+<li><span class="tech-symbol" aria-hidden="true">GL</span><span>GLB</span></li>
+<li><span class="tech-symbol" aria-hidden="true">AS</span><span>App Store Connect</span></li>
+<li><span class="tech-symbol" aria-hidden="true">TF</span><span>TestFlight</span></li>
+<li><span class="tech-symbol" aria-hidden="true">MD</span><span>Mobile device management</span></li>
 </ul>
 </section>
-<p><a href="https://www.ise.fraunhofer.de/de/presse-und-medien/presseinformationen/2026/fraunhofer-ise-entwickelt-softwaretool-fuer-beschleunigten-waermepumpeneinbau.html">Public project source</a></p>
 </main></body></html>

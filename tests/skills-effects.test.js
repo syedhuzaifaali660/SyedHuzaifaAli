@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 
-function setup({ reduced = false, fine = true, project = false } = {}) {
+function setup({ reduced = false, fine = true, project = false, legacy = false } = {}) {
     const handlers = {};
     const values = new Map();
     const classes = new Set();
@@ -20,7 +20,7 @@ function setup({ reduced = false, fine = true, project = false } = {}) {
     const motion = { matches: reduced, addEventListener: (name, callback) => { handlers.motionChange = callback; } };
     const context = {
         window: { matchMedia: query => query.includes('reduced-motion') ? motion : { matches: fine } },
-        document: { querySelectorAll: selector => project ? (selector === '.single-special' ? [card] : []) : (selector.includes('.skill-topic') ? [card] : []) },
+        document: { querySelectorAll: selector => project ? (selector === '.single-special' ? [card] : []) : (selector.split(',').map(value => value.trim()).includes(legacy ? '.skill-card' : '.skill-topic') ? [card] : []) },
         WeakSet
     };
     vm.runInNewContext(fs.readFileSync(require.resolve('../js/skills.js'), 'utf8'), context);
@@ -28,8 +28,8 @@ function setup({ reduced = false, fine = true, project = false } = {}) {
     return { handlers, values, classes, motion, initProjectEffects: context.window.initProjectCardEffects };
 }
 
-test('skill panels tilt within 2.1 degrees and reset when the mouse leaves', () => {
-    const { handlers, values, classes } = setup();
+test('legacy skill cards tilt within 2.1 degrees and reset when the mouse leaves', () => {
+    const { handlers, values, classes } = setup({ legacy: true });
     assert.equal(typeof handlers.pointermove, 'function');
     handlers.pointermove({ pointerType: 'mouse', clientX: 400, clientY: 0 });
     assert.equal(values.get('--tilt-x'), '2.1deg');
@@ -71,21 +71,32 @@ test('enabling reduced motion clears an existing project-card tilt', () => {
     assert.equal(values.size, 0);
 });
 
-test('touch input, coarse pointers, and reduced motion do not tilt skill panels', () => {
+test('touch input, coarse pointers, and reduced motion do not tilt legacy skill cards', () => {
     for (const options of [{}, { fine: false }, { reduced: true }]) {
-        const { handlers, values } = setup(options);
+        const { handlers, values } = setup({ ...options, legacy: true });
         assert.equal(typeof handlers.pointermove, 'function');
         handlers.pointermove({ pointerType: options.fine === false || options.reduced ? 'mouse' : 'touch', clientX: 400, clientY: 0 });
         assert.equal(values.size, 0);
     }
 });
 
-test('enabling reduced motion clears an existing skill-panel tilt', () => {
-    const { handlers, values, motion } = setup();
+test('enabling reduced motion clears an existing legacy skill-card tilt', () => {
+    const { handlers, values, motion } = setup({ legacy: true });
     assert.equal(typeof handlers.pointermove, 'function');
     handlers.pointermove({ pointerType: 'mouse', clientX: 400, clientY: 0 });
     assert.ok(values.size > 0);
     motion.matches = true;
     handlers.motionChange();
     assert.equal(values.size, 0);
+});
+
+test('capability panels receive no pointer handlers or decorative mutations', () => {
+    const { handlers, values, classes, motion } = setup();
+    assert.equal(handlers.pointermove, undefined);
+    assert.equal(handlers.pointerleave, undefined);
+    assert.equal(handlers.pointercancel, undefined);
+    motion.matches = true;
+    handlers.motionChange();
+    assert.equal(values.size, 0);
+    assert.equal(classes.size, 0);
 });

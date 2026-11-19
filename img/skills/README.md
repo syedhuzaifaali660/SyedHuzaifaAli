@@ -23,4 +23,12 @@ Local SVGs from [Devicon](https://github.com/devicons/devicon), under the includ
 - json: icons/json/json-plain.svg
 - xml: icons/xml/xml-plain.svg
 
-App Store, Google Play and Databases use the existing Font Awesome stylesheet.
+App Store, Google Play and MySQL use the existing Font Awesome stylesheet.
+
+The following tools use representative Font Awesome glyphs, rather than brand logos:
+
+- Swift: `fas fa-code`
+- ARKit: `fas fa-cube`
+- OpenCV: `fas fa-eye`
+- PyTorch / YOLO: `fas fa-microchip`
+- WebGL: `fas fa-globe`

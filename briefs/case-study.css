@@ -1,8 +1,9 @@
 body {
-    background: #f3f9fc;
+    background: #f4f8fb;
     color: #213d50;
 }
 .case-study {
+    font-family: 'Cabin', sans-serif;
     max-width: 848px;
     margin: 0 auto;
     padding: 48px 24px 80px;
@@ -19,6 +20,7 @@ body {
     outline: 3px solid #147da8;
     outline-offset: 4px;
 }
+.case-study h1, .case-study h2 { color: #213d50; font-weight: 700; }
 .case-study h1 {
     font-size: clamp(30px, 5vw, 48px);
     line-height: 1.2;
@@ -29,19 +31,19 @@ body {
     width: 100%;
     max-height: 400px;
     object-fit: cover;
-    border-radius: 18px;
+    border-radius: 16px;
     background: #e2eef5;
 }
 .case-study h2 {
-    margin: 38px 0 12px;
+    margin: 32px 0 12px;
     color: #213d50;
     font-size: 24px;
 }
 .case-study p {
     color: #45596a;
     font-size: 17px;
-    line-height: 1.75;
-    margin-bottom: 22px;
+    line-height: 1.7;
+    margin-bottom: 24px;
 }
 .case-study p a { color: #086b94; text-decoration: underline; }
 .technology-section {

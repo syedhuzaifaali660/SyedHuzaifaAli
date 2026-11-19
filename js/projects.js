@@ -22,6 +22,7 @@
         (project.categories || []).filter(function (category) { return /^category[1-9]$/.test(category); })
             .forEach(function (category) { column.classList.add(category); });
         var card = element('article', 'single-special text-center');
+        card.tabIndex = -1;
         card.dataset.projectId = window.portfolioAnalytics.projectKey(project);
         card.dataset.projectTitle = project.title;
         var header = element('div', 'project-header');
@@ -91,24 +92,45 @@
         window.initProjectCardEffects();
         window.portfolioAnalytics.initProjects();
         var filters = document.querySelectorAll('#project-archive .category-button');
-        function announce(count, category) {
-            status.textContent = count + (count === 1 ? ' project' : ' projects') + (category ? ' in ' + category : ' in the archive');
+        var loadMore = document.getElementById('archive-load-more');
+        var batchSize = 6;
+        var activeCategory = 'all';
+        var categoryName = 'the archive';
+        var visibleLimit = batchSize;
+        function updateArchive() {
+            var matching = Array.from(grid.children).filter(function (column) {
+                return activeCategory === 'all' || column.classList.contains(activeCategory);
+            });
+            Array.from(grid.children).forEach(function (column) { column.hidden = true; });
+            matching.slice(0, visibleLimit).forEach(function (column) { column.hidden = false; });
+            var shown = Math.min(visibleLimit, matching.length);
+            status.textContent = matching.length ? 'Showing ' + shown + ' of ' + matching.length +
+                (matching.length === 1 ? ' project' : ' projects') + ' in ' + categoryName :
+                'No projects found in ' + categoryName;
+            var remaining = matching.length - shown;
+            loadMore.hidden = remaining === 0;
+            var nextBatch = Math.min(batchSize, remaining);
+            loadMore.textContent = 'Show ' + nextBatch + ' more ' + (nextBatch === 1 ? 'project' : 'projects');
+            return matching;
         }
-        announce(data.length);
+        updateArchive();
         filters.forEach(function (filter) {
             filter.addEventListener('click', function () {
                 filters.forEach(function (button) {
                     button.classList.toggle('current', button === filter);
                     button.setAttribute('aria-pressed', String(button === filter));
                 });
-                var count = 0;
-                Array.from(grid.children).forEach(function (card) {
-                    var visible = filter.dataset.filter === 'all' || card.classList.contains(filter.dataset.filter);
-                    card.style.display = visible ? '' : 'none';
-                    if (visible) count++;
-                });
-                announce(count, filter.dataset.filter === 'all' ? '' : filter.textContent.trim());
+                activeCategory = filter.dataset.filter;
+                categoryName = activeCategory === 'all' ? 'the archive' : filter.textContent.trim();
+                visibleLimit = batchSize;
+                updateArchive();
             });
+        });
+        loadMore.addEventListener('click', function () {
+            var firstNew = visibleLimit;
+            visibleLimit += batchSize;
+            var matching = updateArchive();
+            matching[firstNew]?.querySelector('article').focus();
         });
     }).catch(function () {
         document.getElementById('loading-projects')?.remove();

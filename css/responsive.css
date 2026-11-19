@@ -39,12 +39,12 @@
     }
     .header_area .menu_area #nav .nav-link,
     .header_area.sticky .menu_area #nav .nav-link {
-        padding: 7.5px 15px;
+        padding: 10px 12px;
     }
     #ca-navbar {
-        padding: 30px;
-        border-radius: 3px;
-        background-color: #333;
+        padding: 16px;
+        border-radius: 4px;
+        background-color: #24aae2;
         text-align: left;
     }
     .sing-up-button {
@@ -99,9 +99,6 @@
     .brand-identity {
     width: 40px;
     }
-    header.header_area.animated.sticky.slideInDown .brand-identity-scroll {
-    padding-top: 4px;
-    }
     .navbar-nav {
         padding-left: 0;
     }
@@ -119,14 +116,13 @@
     }
     .header_area .menu_area #nav .nav-link,
     .header_area.sticky .menu_area #nav .nav-link {
-        padding: 5px 15px;
+        padding: 10px 12px;
     }
     #ca-navbar {
-        padding: 20px;
-        border-radius: 3px;
-        background-color: #333;
+        padding: 16px;
+        border-radius: 4px;
+        background-color: #24aae2;
         text-align: left;
-        padding-bottom: 50px;
     }
     .sing-up-button {
         margin-top: 30px;
@@ -234,14 +230,6 @@
     }
     .brand-identity {
     width: 35px;
-    }
-    header.header_area.animated.sticky.slideInDown .brand-identity-scroll {
-    margin-top: 4px;
-    width: 34px;
-    }
-
-    .header_area.sticky .desktop-brand{
-        display: none !important;
     }
     .sing-up-btn-group {
         display: flex;

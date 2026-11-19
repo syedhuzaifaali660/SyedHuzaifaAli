@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    var cards = document.querySelectorAll('.skill-card, .skill-topic');
+    var cards = document.querySelectorAll('.skill-card');
     var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     var finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
     var tiltRange = 4.2; // Both card types rotate up to 2.1 degrees in either direction.
